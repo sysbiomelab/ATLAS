@@ -1,11 +1,8 @@
 require(RColorBrewer)
 require(circlize)
 
-# new plan, just load the proteomics and do the correlations between them
-#msps are vect atlas
 load('../data/current.example.MGS.other.omics.RData')
-load('../data/vect_atlas.RData')
-circosInput <- read.csv('../newcircos.csv')
+#load('../data/vect_atlas.RData')
 circosInput <- read.csv('../newgo.csv')
 
 qual_col_pals = brewer.pal.info[brewer.pal.info$category == 'qual',]
@@ -13,19 +10,19 @@ col_vector = unlist(mapply(brewer.pal, qual_col_pals$maxcolors, rownames(qual_co
 
 #selectedTab = mixedModelMetaboFamilyTab[mixedModelMetaboFamilyTab$exp.var > 0.1, ]
 #selectedTab = mixedModelMetaboMgsTab[mixedModelMetaboMgsTab$exp.var > 0.25, ]
-selectedTab = mixedModelMetaboMgsTab[mixedModelMetaboMgsTab$exp.var > 0.5, ]
-circosInput = circosInput[circosInput$value > 0.99, ]
+#selectedTab = mixedModelMetaboMgsTab[mixedModelMetaboMgsTab$exp.var > 0.5, ]
+#circosInput = circosInput[circosInput$value > 0.99, ]
 
 # explained variance > 10%
-selectedTabPos = selectedTab[selectedTab$tMgs > 0,]
+#selectedTabPos = selectedTab[selectedTab$tMgs > 0,]
 # positive relations
-selectedTabNeg = selectedTab[selectedTab$tMgs < 0,]
+#selectedTabNeg = selectedTab[selectedTab$tMgs < 0,]
 # negative relations
 
-circosInput = data.frame(from=getGenusName(selectedTabPos$mgs, taxo),
-                         to=selectedTabPos$metabo,
-                         value=(abs(selectedTabPos$exp.var)),
-                         stringsAsFactors = F)
+#circosInput = data.frame(from=getGenusName(selectedTabPos$mgs, taxo),
+#                         to=selectedTabPos$metabo,
+#                         value=(abs(selectedTabPos$exp.var)),
+#                         stringsAsFactors = F)
 
 
 #circosInput = circosInput[!grepl("unclassified",circosInput$from),]
