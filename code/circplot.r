@@ -1,7 +1,7 @@
 require(RColorBrewer)
 require(circlize)
 
-load('../data/current.example.MGS.other.omics.RData')
+#load('../data/current.example.MGS.other.omics.RData')
 #load('../data/vect_atlas.RData')
 circosInput <- read.csv('../newgo.csv')
 
