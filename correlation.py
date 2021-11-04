@@ -105,13 +105,18 @@ slicedCorrelations3 = correlations3.iloc[
 edges1 = slicedCorrelations1.stack().reset_index()
 edges2 = slicedCorrelations2.stack().reset_index()
 edges3 = slicedCorrelations3.stack().reset_index()
-edges = pd.concat([edges1,edges2,edges3])
+#edges = pd.concat([edges1,edges2,edges3])
+#
+#edges12 = pd.concat([edges1, edges2])
+#edges13 = pd.concat([edges1, edges3])
+#edges23 = pd.concat([edges2, edges3])
+edges1.columns = ['from','to','value']
+edges2.columns = ['from','to','value']
+edges3.columns = ['from','to','value']
 
-significantMatrix = pd.DataFrame(
-    fdrcorrection(slicedUncorrectedPValues.values.flatten())[0].reshape(slicedUncorrectedPValues.shape),
-    #multipletests(slicedUncorrectedPValues.values.flatten())[0].reshape(slicedUncorrectedPValues.shape),
-    index = slicedUncorrectedPValues.index,
-    columns = slicedUncorrectedPValues.columns)
+edges1.sort_values('value').tail(20).to_csv('pdfMspd.csv',index=False)
+edges2.sort_values('value').tail(20).to_csv('pdfMeta.csv',index=False)
+edges3.sort_values('value').tail(20).to_csv('mspdMeta.csv',index=False)
 
 
 
