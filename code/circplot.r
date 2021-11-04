@@ -3,7 +3,11 @@ require(circlize)
 
 #load('../data/current.example.MGS.other.omics.RData')
 #load('../data/vect_atlas.RData')
-circosInput <- read.csv('../newgo.csv')
+#circosInput <- read.csv('../newgo.csv')
+
+#circosInput <- read.csv('../pdfMeta.csv')
+#circosInput <- read.csv('../pdfMspd.csv')
+circosInput <- read.csv('../mspdMeta.csv')
 
 qual_col_pals = brewer.pal.info[brewer.pal.info$category == 'qual',]
 col_vector = unlist(mapply(brewer.pal, qual_col_pals$maxcolors, rownames(qual_col_pals)))
@@ -36,9 +40,13 @@ names(circosGridCols) = elements
 #circos.par(track.margin=c(0,0)) 
 set.seed(1)
 #circos.initialize(elements, xlim=c(0,1))
+
+#pdf('pdfMeta.pdf')
+#pdf('pdfMspd.pdf')
+pdf('mspdMeta.pdf')
 circos.initialize(elements, xlim=c(0,1))
-chordDiagram(circosInput)
-circos.par(cell.padding = c(0.02, 0, 0.02, 0))
+#chordDiagram(circosInput)
+#circos.par(cell.padding = c(0.02, 0, 0.02, 0))
 chordDiagram(circosInput, annotationTrack = "grid", preAllocateTracks = 1, grid.col = circosGridCols)
 circos.trackPlotRegion(track.index = 1,  panel.fun = function(x, y) {
   xlim = get.cell.meta.data("xlim")
@@ -49,3 +57,4 @@ circos.trackPlotRegion(track.index = 1,  panel.fun = function(x, y) {
               sector.index = sector.name, track.index = 2)
 }, bg.border = NA)
 circos.clear() 
+dev.off()
