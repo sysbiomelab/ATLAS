@@ -1,0 +1,4 @@
+,from,to,spearman
+0,proteome,microbiome,15
+1,proteome,metabolome,644
+2,microbiome,metabolome,1829
