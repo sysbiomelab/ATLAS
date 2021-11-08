@@ -59,20 +59,10 @@ edges.sort_values('value')
 
 '''
 
-
-
-
-
-
-
-
-
-
-
 pdf = df.xs(mergedp.columns,axis=1)
 mspd = df.xs(mspdf.columns,axis=1)
 meta = df.xs(metadf.columns,axis=1)
-#correlationArray, uncorrectedPValueArray = spearmanr(df1, df2, axis=0)
+#correlationArray, uncorrectedPValueArray = spearmanr(pdf, mspdf, axis=0)
 #correlationArray, uncorrectedPValueArray = spearmanr(meta, mergedp, axis=0)
 c1, p1 = spearmanr(pdf, mspd, axis=0)
 c2, p2 = spearmanr(pdf, meta, axis=0)
@@ -120,3 +110,11 @@ edges3.sort_values('value').tail(20).to_csv('mspdMeta.csv',index=False)
 
 
 
+'''
+significantMatrix = pd.DataFrame(
+    fdrcorrection(uncorrectedPValue.values.flatten())[0].reshape(slicedUncorrectedPValues.shape),
+    #multipletests(slicedUncorrectedPValues.values.flatten())[0].reshape(slicedUncorrectedPValues.shape),
+    index = slicedUncorrectedPValues.index,
+    columns = slicedUncorrectedPValues.columns)
+
+'''
