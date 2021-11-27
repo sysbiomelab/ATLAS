@@ -1,0 +1,470 @@
+msp,sum,dif,species
+msp_1339,3,1,Gordonibacter urolithinfaciens
+msp_0356,2,0,unclassified Clostridiales
+msp_0066,1,1,Clostridium sp. AT4
+msp_0931,1,-1,unclassified Clostridiales
+msp_0075,3,-3,Clostridium sp. CAG:91 & sp. 2789STDY5834873
+msp_1143,2,-2,unclassified Oscillibacter
+msp_0124,2,-2,unclassified Ruminococcaceae
+msp_0138,1,-1,Bifidobacterium pseudocatenulatum
+msp_0042,2,-2,Coprococcus eutactus 2
+msp_1060c,4,2,unclassified Flavonifractor
+msp_1605,1,1,unclassified Clostridiales
+msp_0247,1,-1,Clostridium sp. 44_14 & CAG:277
+msp_0113,1,1,Blautia producta 2
+msp_0478,7,5,Clostridium phoceensis
+msp_0045,5,-5,Ruminococcus bromii 2
+msp_0141,3,-3,Blautia massiliensis
+msp_0100,1,1,Morganella morganii
+msp_0206,3,-3,Butyrivibrio crossotus
+msp_0529,2,0,Eubacterium sp. CAG:581
+msp_0202,1,-1,Acinetobacter sp. N54.MGS-139 / Proteobacteria bacterium CAG:139
+msp_1336,1,1,Anaerococcus obesiensis == vaginalis
+msp_0047,1,-1,Eubacterium sp. CAG:115
+msp_0056,7,7,unclassified Clostridiales
+msp_0299,3,-3,Eubacterium ramulus
+msp_1308,1,1,Turicibacter sanguinis 2
+msp_0189,1,-1,Blautia sp. CAG:237
+msp_0679,1,-1,unclassified
+msp_0780,2,-2,unclassified Lachnospiraceae
+msp_0566,1,-1,unclassified Firmicutes
+msp_0214,1,1,Alistipes sp. CAG:268
+msp_0069,4,4,Bacteroides vulgatus
+msp_1671c,1,1,Neglecta timonensis
+msp_0894,1,1,unclassified Prevotella
+msp_0976,1,1,unclassified Firmicutes
+msp_0949,1,1,unclassified Erysipelotrichaceae
+msp_0163,2,-2,Firmicutes bacterium CAG:227
+msp_0480,1,-1,unclassified Clostridiales
+msp_0777,2,-2,Firmicutes bacterium CAG:129
+msp_1034,2,2,Anaeroglobus geminatus
+msp_0223,1,-1,Clostridium sp. L2-50
+msp_1132,1,-1,unclassified
+msp_0182,1,1,Firmicutes bacterium CAG:424
+msp_0225,3,1,Alistipes obesi
+msp_1353,3,-3,unclassified Clostridium
+msp_1193,4,4,Dialister pneumosintes
+msp_0712,4,4,Lactobacillus salivarius
+msp_0029,2,-2,Eubacterium eligens
+msp_1545,2,-2,unclassified
+msp_1012,2,0,Intestinimonas massiliensis
+msp_1094,1,-1,unclassified Firmicutes
+msp_0173,2,-2,Christensenellaceae bacterium Phil1 & Clostridium sp. CAG:226
+msp_1124,1,1,unclassified Lachnospiraceae
+msp_0198,2,-2,Coprobacter secundus == Gabonia massiliensis
+msp_0092,1,-1,Sutterella wadsworthensis 1
+msp_0479,1,1,unclassified Erysipelotrichaceae
+msp_0850,2,0,unclassified Firmicutes
+msp_1138,1,1,Clostridium sp. CAG:628
+msp_0313,2,2,Veillonella parvula
+msp_0125,1,-1,Firmicutes bacterium CAG:24 / Clostridium sp. 2789STDY5834869 & 2789STDY5834922
+msp_0374,3,-3,Gemmiger formicilis
+msp_1793,1,1,Prevotella denticola
+msp_0484,4,-4,unclassified Faecalibacterium
+msp_0473c,1,-1,Clostridium sp. 2789STDY5834874 & sp. 2789STDY5608885
+msp_0353,2,-2,unclassified
+msp_0545,2,2,Pseudoflavonifractor sp. An184
+msp_1603c,2,2,Atopobium parvulum 2
+msp_0405,2,2,Ruminococcus sp. CAG:403
+msp_0509,3,-3,Firmicutes bacterium CAG:114
+msp_0130,1,-1,Candidatus Gastranaerophilales bacterium x14
+msp_1492,2,-2,unclassified Lachnospiraceae
+msp_0713,4,4,Clostridium citroniae
+msp_0624,2,0,unclassified Clostridiales
+msp_0152,5,-5,Ruminococcus faecis
+msp_0263,1,-1,Bifidobacterium adolescentis
+msp_0213,6,6,Flavonifractor plautii
+msp_1786,1,1,unclassified Leptotrichia
+msp_0874,1,1,unclassified Firmicutes
+msp_0468,4,-4,Firmicutes bacterium CAG:41 / Clostridium sp. 2789STDY5834935 & sp. 2789STDY5608853
+msp_0820,3,-3,unclassified Clostridiales
+msp_1748,3,1,Streptococcus gordonii
+msp_0233,1,1,unclassified Lachnospiraceae
+msp_0457,3,-3,Faecalibacterium sp. CAG:82
+msp_0860,1,-1,unclassified Intestinibacter
+msp_0301,2,0,Faecalibacterium prausnitzii 1 (A2-165)
+msp_0312,3,-1,Firmicutes bacterium CAG:110
+msp_0237,1,-1,Roseburia sp. CAG:182
+msp_0348,1,-1,unclassified Firmicutes
+msp_1724,2,0,Phocea massiliensis
+msp_0506,7,-5,Dorea formicigenerans
+msp_0164,3,-3,Ruminococcus sp. 2789STDY5608794 & sp. 2789STDY5834890 / Firmicutes bacterium CAG:56
+msp_0229,1,1,Prevotella sp. 885
+msp_1799,1,1,unclassified Veillonella
+msp_0093,2,-2,Clostridium sp. CAG:62
+msp_0309,1,1,unclassified Blautia
+msp_1111,2,0,Clostridium sp. CAG:568
+msp_0844c,1,1,Campylobacter concisus 2
+msp_0794,1,1,unclassified Eggerthellaceae
+msp_0170,2,0,Azospirillum sp. CAG:239
+msp_0398,3,-3,unclassified
+msp_1592,1,1,unclassified
+msp_1672,1,1,unclassified
+msp_0553,2,0,unclassified Clostridiales
+msp_0763,1,-1,Oscillibacter sp. ER4 / Firmicutes bacterium CAG:129_59_24
+msp_0391,1,1,Oscillibacter sp. CAG:155
+msp_1177,1,1,unclassified Firmicutes
+msp_0139,1,-1,Coprobacter fastidiosus
+msp_0613,2,2,unclassified Clostridiales
+msp_0435,1,1,unclassified Oscillibacter
+msp_1428,1,-1,unclassified Clostridiales
+msp_0592,1,-1,unclassified Clostridiales
+msp_0034,3,-3,Faecalibacterium sp. CAG:74
+msp_1220,1,1,unclassified Lactobacillus
+msp_0215,2,0,Dialister sp. CAG:357
+msp_0432,1,1,unclassified
+msp_0986,6,-4,Coprococcus catus
+msp_0107,8,-8,Anaerostipes hadrus 1
+msp_0016,2,0,Bacteroides plebeius
+msp_0185,1,-1,unclassified Lachnospiraceae
+msp_0193,1,1,Clostridium scindens 1
+msp_0059,1,1,Barnesiella intestinihominis
+msp_1697,1,1,Enterococcus avium
+msp_0314,2,0,unclassified Clostridiales
+msp_0020,6,6,Clostridium clostridioforme 1
+msp_0901,1,1,unclassified Blautia
+msp_0412,1,1,Bacteroides sp. CAG:144
+msp_1801,1,1,Haemophilus parahaemolyticus
+msp_0853c,1,1,Granulicatella adiacens
+msp_0168,1,1,Firmicutes bacterium CAG:194
+msp_0715c,2,2,Aggregatibacter segnis
+msp_1543,4,0,Streptococcus oralis
+msp_0360,5,5,Clostridium asparagiforme == lavalense
+msp_1315,2,0,unclassified Firmicutes
+msp_0876,1,-1,unclassified Firmicutes
+msp_0308,2,0,Clostridium saccharolyticum 2
+msp_0178,1,-1,Ruminococcus sp. A254.MGS-254 & CAG:254
+msp_0159,1,1,unclassified
+msp_0297,1,1,unclassified Ruminococcaceae
+msp_0161,1,-1,Eubacterium sp. CAG:248
+msp_1244,3,1,Collinsella aerofaciens
+msp_1327,6,6,Peptostreptococcus stomatis
+msp_1529,1,1,unclassified Lachnoclostridium
+msp_1782,2,2,Prevotella melaninogenica
+msp_0057,1,-1,Roseburia sp. CAG:45 & sp. 2789STDY5608886
+msp_1584,1,1,Pseudoflavonifractor capillosus
+msp_0110,1,1,Bilophila wadsworthia
+msp_1069,1,1,unclassified Clostridiales
+msp_1215,1,1,unclassified Porphyromonas
+msp_0143,1,1,Parabacteroides sp. CAG:409
+msp_0054,1,-1,Bacteroides nordii
+msp_0792,2,2,Clostridium perfringens
+msp_0335,2,0,unclassified Alistipes
+msp_0031,3,3,Bacteroides stercoris
+msp_0665,3,-3,unclassified Clostridiales
+msp_0236,2,-2,Eubacterium ventriosum
+msp_0046,2,2,Bacteroides uniformis
+msp_0210,1,1,unclassified Clostridiales
+msp_0570,3,3,Bifidobacterium dentium
+msp_0974c,5,-1,Gemella sanguinis
+msp_1347c,3,-1,unclassified
+msp_0277,1,1,Eubacterium sp. CAG:251 / Clostridium sp. A254.MGS-251
+msp_0194,2,-2,Clostridium sp. 42_12 & CAG:75
+msp_0013,2,-2,Ruminococcus bicirculans
+msp_0073,2,0,unclassified
+msp_0418,1,-1,unclassified Gemmiger
+msp_1238,1,1,unclassified Oscillibacter
+msp_1684,3,1,Faecalicatena contorta
+msp_0060,2,-2,Firmicutes bacterium CAG:95
+msp_1021,1,-1,unclassified Clostridiales
+msp_0806,1,-1,unclassified
+msp_0364,3,1,Intestinimonas butyriciproducens
+msp_0417,1,1,unclassified Alistipes
+msp_0622,2,0,unclassified Firmicutes
+msp_0856,1,-1,Clostridium sp. 28_17 & CAG:470
+msp_0630,2,-2,Eubacterium sp. CAG:161
+msp_0090,4,-2,Alistipes putredinis
+msp_0917,2,-2,unclassified Firmicutes
+msp_0087,4,-2,Lactobacillus rogosae
+msp_0601c,1,1,Anaerofustis stercorihominis
+msp_0259,6,-6,Coprococcus comes
+msp_0985,1,1,Mycoplasma sp. CAG:472
+msp_0128,1,1,Butyricimonas virosa
+msp_0859,1,1,unclassified
+msp_0639,1,1,Faecalibacterium prausnitzii 6
+msp_0893,1,-1,Faecalibacterium prausnitzii 2
+msp_0742,6,0,Streptococcus parasanguinis
+msp_0227,4,-4,Eubacterium sp. 36_13 & CAG:86
+msp_1160,1,1,Clostridium sp. CAG:533
+msp_0895,1,1,Acetobacter sp. CAG:977
+msp_1156,8,0,Solobacterium moorei
+msp_0925,2,2,Lactobacillus gasseri 2
+msp_0265,1,-1,unclassified Faecalibacterium
+msp_0828,2,2,Massiliomicrobiota sp. An80 & An105 & An134 & An142
+msp_1291,6,-6,unclassified Clostridiales
+msp_1158,1,1,Porphyromonas somerae
+msp_0818,1,-1,Clostridium sp. CAG:302
+msp_1128,2,-2,unclassified Butyricicoccus
+msp_0208,7,-5,Ruminococcus sp. Marseille-P328 / Blautia sp. 2789STDY5608844 & sp. 2789STDY5608844
+msp_0578,1,-1,Clostridium sp. CAG:269
+msp_0153,5,5,Erysipelatoclostridium ramosum
+msp_0486,1,1,Lactococcus lactis subsp. lactis
+msp_0872,2,2,Clostridium sp. CAG:567
+msp_1397c,2,2,Catabacter hongkongensis
+msp_0103,3,3,Clostridium innocuum
+msp_0446c,1,1,Oribacterium sinus
+msp_0062,6,0,Odoribacter splanchnicus
+msp_0151,1,1,Butyricimonas synergistica 2
+msp_0196,3,-1,Alistipes shahii
+msp_0027,1,1,Parabacteroides merdae
+msp_0647,4,-2,Clostridia bacterium UC5.1-2E3
+msp_0036,2,2,Bacteroides eggerthii
+msp_0105,1,1,Ruminococcus sp. CAG:177
+msp_0291,2,-2,unclassified Clostridiales
+msp_1038,1,-1,Blautia sp. 2789STDY5608796 & sp. 2789STDY5608848
+msp_1652,1,1,unclassified Intestinimonas
+msp_0101,1,1,Bacteroides sp. CAG:875 & sp. 2789STDY5834845
+msp_1641,5,-5,unclassified Lachnospiraceae
+msp_0071,2,0,Roseburia hominis
+msp_0652,1,-1,unclassified
+msp_0076,9,-3,Blautia wexlerae
+msp_0977,5,3,Flavonifractor sp. 2789STDY5834895 & sp. 2789STDY5834937 /  Clostridium sp. 2789STDY5608878
+msp_1575,1,1,unclassified Ruminococcus
+msp_0851,5,-5,unclassified Clostridiales
+msp_0725,1,1,unclassified Clostridiales
+msp_1361,1,1,unclassified Porphyromonas
+msp_0831,1,1,Faecalicoccus pleomorphus
+msp_0953,1,-1,unclassified Ruminococcaceae
+msp_0199,3,3,Bacteroidales bacterium H8 & H9 & Prevotella sp. CAG:279
+msp_0074,1,-1,Roseburia sp. CAG:100
+msp_0389,1,-1,Faecalibacterium prausnitzii 4 (cf. KLE1255)
+msp_0461,1,-1,unclassified Clostridiales
+msp_0126,3,3,Ruminococcus torques
+msp_0049,6,4,unclassified Lachnoclostridium
+msp_0534,1,-1,Firmicutes bacterium CAG:176_63_11
+msp_0146c,4,-2,Streptococcus sanguinis
+msp_1028c,1,1,Prevotella intermedia
+msp_0148c,3,3,Veillonella dispar
+msp_0246,1,1,Tyzzerella nexilis
+msp_1702,3,-1,Streptococcus australis
+msp_0619,1,1,unclassified
+msp_0583,2,2,unclassified Gemmiger
+msp_0048,3,-3,Eubacterium sp. CAG:38
+msp_0058,2,2,Ruminococcus gnavus
+msp_1222,1,1,Lactobacillus vaginalis
+msp_0009,8,8,Clostridium bolteae
+msp_0837,1,1,unclassified Firmicutes
+msp_0270,1,-1,unclassified Firmicutes
+msp_0150c,1,1,Clostridium methylpentosum
+msp_1404,1,-1,Prevotella bivia
+msp_0011,1,1,Bacteroides thetaiotaomicron
+msp_0689,1,-1,unclassified Clostridiales
+msp_1558,3,-1,unclassified Clostridiales
+msp_0890c,2,0,Leuconostoc mesenteroides
+msp_0010,1,1,Bacteroides fragilis 1
+msp_1114,1,1,Allisonella histaminiformans
+msp_0298,1,-1,unclassified Firmicutes
+msp_1785,2,2,Haemophilus sp. CCUG 66565
+msp_1477,1,1,Streptococcus mutans
+msp_1515,1,1,unclassified Lachnoclostridium
+msp_0064,1,1,Alistipes sp. CAG:435
+msp_1976,1,1,unclassified Lachnospiraceae
+msp_0197,1,1,Megasphaera sp. BL7 & NM10
+msp_1195,1,1,unclassified Firmicutes
+msp_0845,1,-1,Clostridium sp. CAG:440
+msp_0542,1,-1,Clostridium sp. CAG:230
+msp_0551,1,-1,Eubacterium sp. CAG:192
+msp_0833,6,-4,Streptococcus thermophilus
+msp_0579,1,1,unclassified Lachnospiraceae
+msp_0296,3,-3,unclassified Lachnospiraceae
+msp_0068,3,-3,Eubacterium rectale
+msp_1453,6,2,Streptococcus vestibularis
+msp_0884,2,2,Veillonella atypica
+msp_0655,4,-4,Ruminococcus sp. 2789STDY5608817 / Eubacterium sp. 2789STDY5834872
+msp_0916,1,-1,Bifidobacterium animalis
+msp_1790,2,2,Fusobacterium nucleatum subsp. polymorphum
+msp_0331,6,6,Oscillibacter sp. KLE 1728 & KLE 1745 / Oscillospiraceae VE202-24
+msp_0616,2,2,Prevotella buccae
+msp_1234,8,4,Parvimonas micra
+msp_0012,2,2,Parabacteroides distasonis
+msp_0086,8,8,Clostridium symbiosum
+msp_0373,2,0,Clostridium sp. 2789STDY5608884
+msp_1349,2,0,unclassified Clostridiales
+msp_0943,1,1,unclassified
+msp_0142,4,-4,Blautia sp. CAG:52 & sp. 2789STDY5834917
+msp_1432,1,1,Citrobacter koseri
+msp_0449,2,-2,unclassified
+msp_1789,1,1,Alloprevotella tannerae
+msp_0021,3,-3,Bacteroides xylanisolvens
+msp_1491,1,-1,Clostridium sp. 2789STDY5834920
+msp_1287,2,-2,Lactobacillus delbrueckii
+msp_0903,1,-1,Oscillibacter sp. 57_20
+msp_0530,3,-3,Dorea longicatena 2
+msp_1622,1,-1,Clostridium sp. 2789STDY5608793
+msp_0959,4,-4,unclassified
+msp_0463,1,-1,Clostridium sp. CAG:167
+msp_1763,1,1,unclassified Clostridiales
+msp_0028,1,-1,Parabacteroides goldsteinii
+msp_0596,2,-2,unclassified Firmicutes
+msp_0109,2,2,Clostridium scindens 2
+msp_0541,2,2,unclassified Clostridiales
+msp_1400,1,1,unclassified Firmicutes
+msp_0290,1,1,Clostridium sp. CAG:352 / Ruminicoccus sp. 2789STDY5834969 & sp. 2789STDY5608859
+msp_0238,2,0,unclassified Roseburia
+msp_0879,1,-1,unclassified Faecalibacterium
+msp_0769,3,1,Butyricicoccus sp. N15.MGS-46 & N54.MGS-46 & K4410.MGS-46
+msp_0052,4,4,Blautia sp. CAG:257
+msp_0044,5,5,Hungatella hathewayi 1
+msp_0408,1,1,Lactobacillus mucosae
+msp_0319,1,-1,unclassified Clostridiales
+msp_0610,9,9,Fusobacterium nucleatum subsp. animalis
+msp_0041,3,1,Prevotella copri 1
+msp_0861,4,2,unclassified Oscillibacter
+msp_1219,1,1,Veillonella sp. oral taxon 158
+msp_1418c,2,0,Streptococcus mitis
+msp_0656,1,1,Succinatimonas sp. CAG:777
+msp_1342,1,-1,unclassified Firmicutes
+msp_0081,1,1,unclassified Prevotella
+msp_0761,1,-1,unclassified Clostridiales
+msp_0581,1,-1,Firmicutes bacterium CAG:212 / Clostridium sp. 2789STDY5834871
+msp_0424,3,-1,unclassified Clostridiales
+msp_0586,1,1,Clostridium sp. CAG:343
+msp_0396,3,-3,Adlercreutzia equolifaciens
+msp_0003,2,-2,Bacteroides cellulosilyticus
+msp_1403,4,-4,Blautia sp. 2789STDY5834862
+msp_1600,1,1,unclassified Porphyromonas
+msp_0035,1,1,Bacteroides dorei
+msp_0025,4,-2,Akkermansia muciniphila
+msp_0380,8,-4,Streptococcus salivarius
+msp_0723,1,-1,unclassified Firmicutes
+msp_0471,2,2,unclassified Clostridiales
+msp_0019,1,1,Bacteroides faecis
+msp_1473c,1,1,unclassified
+msp_0166,4,-2,Bifidobacterium longum
+msp_1279,1,1,unclassified Clostridiales
+msp_0095,2,2,unclassified Eubacterium
+msp_0065,2,0,Ruminococcus sp. CAG:17 & Blautia sp. 2789STDY5608880
+msp_0748,1,-1,Firmicutes bacterium CAG:460
+msp_0439,1,-1,unclassified Alistipes
+msp_0172,5,5,Ruthenibacterium lactatiformans
+msp_0337,2,-2,Eubacterium sp. 38_16 & CAG:146
+msp_0910,2,-2,Bifidobacterium catenulatum
+msp_0699,1,-1,unclassified Firmicutes
+msp_1718,1,1,unclassified Blautia
+msp_1013,1,1,unclassified Firmicutes
+msp_0847,1,-1,unclassified
+msp_0591,2,-2,unclassified Clostridiales
+msp_0234,1,1,unclassified
+msp_1323,1,-1,unclassified Flavonifractor
+msp_0804,1,-1,unclassified
+msp_0663,3,-3,unclassified
+msp_0456,1,-1,unclassified Gemmiger
+msp_0250,1,-1,Ruminococcus lactaris
+msp_0648,1,1,Holdemanella biformis
+msp_0232,1,1,Dorea sp. CAG:317
+msp_1325,3,3,Megasphaera micronuciformis
+msp_0877,1,-1,Massiliomicrobiota timonensis
+msp_0573,3,3,Eggerthella lenta
+msp_0388,2,0,Faecalibacterium prausnitzii 3 ( L2-6)
+msp_1356,3,-1,Anaeromassilibacillus sp. An250
+msp_1599,1,1,Streptococcus sp. I-P16
+msp_0808,1,1,Clostridium sp. CAG:288
+msp_0908,1,-1,unclassified
+msp_0419,1,1,Bifidobacterium bifidum
+msp_0740,1,1,unclassified Clostridiales
+msp_0930,2,-2,unclassified Lachnospiraceae
+msp_0494,1,1,unclassified
+msp_1420,1,1,unclassified Clostridiales
+msp_0317,1,1,unclassified Clostridiales
+msp_0038,1,-1,unclassified
+msp_1302,1,-1,unclassified Firmicutes
+msp_0560,2,2,unclassified Firmicutes
+msp_0521,2,-2,unclassified Firmicutes
+msp_0885,3,-3,unclassified Roseburia
+msp_0719,1,1,unclassified
+msp_1320c,1,1,unclassified
+msp_0318,2,-2,Alistipes indistinctus
+msp_0442,5,-1,unclassified Flavonifractor
+msp_0546,2,-2,Clostridium sp. CAG:245
+msp_0487,1,-1,unclassified Clostridiales
+msp_1783,2,2,Fusobacterium periodonticum
+msp_0623,1,-1,Coprobacillus sp. 8_1_38FAA / Clostridium sp. 2789STDY5608874
+msp_0357,1,1,Clostridium sp. CAG:169
+msp_0188,6,-6,bacterium LF-3 / Coprobacillus sp. CAG:235
+msp_0422,7,-5,Romboutsia timonensis
+msp_0691,1,1,Lactobacillus amylovorus
+msp_1173c,1,-1,unclassified Clostridiales
+msp_0737,1,1,unclassified Clostridiales
+msp_0015,3,-3,Roseburia faecis
+msp_0040,4,-2,Bacteroides massiliensis
+msp_1329,1,1,Veillonella tobetsuensis
+msp_0077,2,0,unclassified Firmicutes
+msp_0221,2,2,Acidaminococcus intestini
+msp_0180,4,4,Blautia producta
+msp_0979,1,-1,unclassified Clostridiales
+msp_0881,1,1,Haemophilus parainfluenzae
+msp_0346,3,-3,Clostridium sp. CAG:43
+msp_1968,1,1,unclassified Clostridiales
+msp_0722,5,-5,Blautia sp. Marseille-P3087 / Ruminococcus sp. 2789STDY5608882
+msp_0961,2,-2,unclassified Clostridiales
+msp_0154,4,-2,Fusicatenibacter saccharivorans
+msp_0604,4,-4,Dorea sp. CAG:105
+msp_0747,4,-4,unclassified Firmicutes
+msp_0144,4,-2,Clostridium sp. CAG:138
+msp_0381,1,-1,Alistipes senegalensis
+msp_0079,3,-3,Clostridium sp. CAG:7
+msp_0716,2,-2,unclassified
+msp_0050,5,-5,Eubacterium hallii
+msp_0089,3,1,Alistipes finegoldii
+msp_0032,4,0,Alistipes onderdonkii
+msp_0244,1,1,Ruminococcus sp. CAG:60 / Blautia sp. 2789STDY5608836
+msp_0760,1,-1,Clostridium sp. 29_15 & CAG:265
+msp_1564,1,-1,unclassified Firmicutes
+msp_0362,1,1,Clostridium saudiense
+msp_0147,3,3,unclassified
+msp_0452,1,-1,unclassified Clostridiales
+msp_1191c,4,4,Atopobium parvulum
+msp_0436,6,-6,Blautia obeum
+msp_0017,2,-2,Roseburia intestinalis
+msp_0773,2,-2,unclassified Firmicutes
+msp_0200,5,5,Anaerostipes caccae
+msp_1773,1,1,Lactobacillus oris
+msp_0685,1,-1,unclassified Clostridiales
+msp_1643c,4,-4,Ruminococcus sp. JC304
+msp_0945,2,-2,unclassified Coprococcus
+msp_0392,1,-1,Firmicutes bacterium CAG:238
+msp_0650,2,-2,unclassified Butyricicoccus
+msp_1826,1,1,unclassified Bacteroides
+msp_1131,1,1,unclassified Eggerthella
+msp_0588,1,1,unclassified Clostridiales
+msp_0811,3,-1,[Staphylococcus] sp. CAG:324
+msp_1118,1,1,unclassified Lachnospiraceae
+msp_0024,4,4,Hungatella hathewayi 2
+msp_0055,1,1,Firmicutes bacterium CAG:65 / Clostridium sp. 2789STDY5608883
+msp_1682c,1,1,Clostridioides difficile
+msp_0563,3,-3,unclassified Clostridium
+msp_0490,2,0,unclassified
+msp_0183,2,0,Acetobacter sp. 46_36 & CAG:267
+msp_0602c,4,2,Streptococcus infantis
+msp_0572,4,-4,Lachnospira sp. 2789STDY5834967 / Clostridiales bacterium KLE1615 & 41_12_two_minus
+msp_0621,4,-2,Intestinibacter bartlettii
+msp_0766,2,2,unclassified Oscillibacter
+msp_1570,1,1,Porphyromonas asaccharolytica
+msp_0512,1,-1,Firmicutes bacterium CAG:321
+msp_1533,1,-1,unclassified Clostridiales
+msp_0404,1,-1,unclassified Firmicutes
+msp_0594,2,0,Phascolarctobacterium sp. CAG:266
+msp_0554,2,-2,Anaerostipes hadrus 2
+msp_0697,2,-2,Clostridium sp. CAG:221
+msp_0306,3,-3,Firmicutes bacterium CAG:176
+msp_0334,1,1,Erysipelotrichaceae bacterium 5_2_54FAA / Eubacterium sp. 3_1_31
+msp_0437c,3,-1,Actinomyces oris
+msp_0212,2,0,Dialister invisus
+msp_0426,1,1,Dialister sp. CAG:486
+msp_0477,1,-1,Firmicutes bacterium CAG:83
+msp_1608c,1,-1,Clostridium sp. 2789STDY5608831
+msp_0067,1,1,Prevotella sp. 109 & CAG:255
+msp_0440,4,0,unclassified Eubacterium
+msp_0129,2,0,Clostridium sp. CAG:58
+msp_0005,5,5,Escherichia coli
+msp_0205,1,-1,Firmicutes bacterium CAG:124
+msp_0385,1,1,Ruminococcaceae bacterium D16
+msp_0271,1,-1,Eubacterium sp. CAG:180
+msp_1005,2,-2,Clostridium sp. CAG:508
+msp_1006,4,4,Lactobacillus fermentum
+msp_1127,4,2,Streptococcus anginosus
+msp_0781,2,0,unclassified Clostridiales
+msp_1854,1,-1,unclassified
+msp_0307,3,-3,Dorea longicatena 1
+msp_0776,1,-1,unclassified Clostridiales
+msp_0305,3,-3,Roseburia sp. CAG:303
