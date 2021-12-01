@@ -1,17 +1,17 @@
-%autoindent
 import pandas as pd
 import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-cazy_name = pd.read_csv('../data/CAZyDB.07292021.fam-activities.txt', sep='\t', index_col=0)
-genebag = pd.read_csv('../../../data/FMT/gutdataverse_files/IGC2.1990MSPs.tsv', sep='\t', index_col=0)
-cazyme = pd.read_csv('../../../data/FMT/gutdataverse_files/IGC2_vs_cazy.table', sep='\t', index_col=0)
-cazyme.columns = ['cazyme']
-country_codes = pd.read_csv('../data/countrycodes.tsv', sep='\t',  index_col=1)
-msp = pd.read_csv('../data/vect_atlas.csv', index_col=0).T
+cazy_dorin = pd.read_csv('../../../Dorines_supplementary.table.3_CAZymes_subsConversion.tsv', sep='\t', index_col=0) 
+cazy_name = pd.read_csv('../../../ATLAS/data/CAZyDB.07292021.fam-activities.txt', sep='\t', index_col=0)
+genebag = pd.read_csv('../../../../data/FMT/gutdataverse_files/IGC2.1990MSPs.tsv', sep='\t', index_col=0)
+cazyme = pd.read_csv('../../../../data/FMT/gutdataverse_files/IGC2_vs_cazy.table', sep='\t', index_col=0)
+country_codes = pd.read_csv('../../../ATLAS/data/countrycodes.tsv', sep='\t',  index_col=1)
+msp = pd.read_csv('../../../ATLAS/data/vect_atlas.csv', index_col=0).T
+meta = pd.read_csv('../../../ATLAS/data/unique_metadata.csv').set_index('country')
 
-meta = pd.read_csv('../data/unique_metadata.csv').set_index('country')
+cazyme.columns = ['cazyme']
 meta = meta.join(country_codes).set_index('secondary_sample_accession')
 
 regionmetamsp= msp.join(meta[['westernised','Country']])
@@ -52,9 +52,10 @@ cutoff = merged[merged.sum(axis=1) > 90]
 percentile = cutoff.T.div(cutoff.sum(axis=1)).T
 extremes = percentile.loc[abs(percentile['nwCount'].sub(percentile['wCount'])).sort_values().tail(18).index]
 sort = extremes.sort_values('nwCount')
+sort = sort.join(cazy_dorin, how='inner').drop_duplicates()
 
-plt.bar(x = sort.index, height=sort.iloc[:,0])
-plt.bar(x = sort.index, height=sort.iloc[:,1], bottom = sort.iloc[:,0])
+plt.bar(x = sort.index, height=sort.nwCount)
+plt.bar(x = sort.index, height=sort.wCount, bottom = sort.nwCount)
 plt.xticks(rotation=90)
 
 plt.ylim(0,1)
