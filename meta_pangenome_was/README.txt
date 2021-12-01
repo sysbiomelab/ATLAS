@@ -1,6 +1,6 @@
 This files describe the folder's content                                
- *"Disease_PangenomeWAS.xml" Preliminary final figure, same layout as slide 4
- *"Enriched_depleated_functional_clusters.xml" Preliminary final figure, replacement for figure d) in slide 5. 
+ *"Disease_PangenomeWAS.pdf" Preliminary final figure, same layout as slide 4
+ *"Enriched_depleated_functional_clusters.pdf" Preliminary final figure, replacement for figure d) in slide 5. 
  
  Folder "code" has the scripts   for estimating effect size in disease cohorts.
         "effect_size.py" Python script, takes as input the metadata table, the msp abundance table csv format and a file with the cohorts talble; Outputs "Effect_size.Country_ctrl.tsv", "Effect_size.Matched_ctrl.tsv" and "Volcano_plot.Country.tsv"
