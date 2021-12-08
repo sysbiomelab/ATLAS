@@ -1,0 +1,744 @@
+gp,index,Austria,China,Denmark,Fiji,Finland,France,India,Italy,Japan,Luxembourg,Madagascar,Mongolia,Peru,Spain,Sweden,"Tanzania, United Republic of",Thailand,United Kingdom,United States of America
+msp_0001,Blastocystis sp. subtype 3,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False
+msp_0002,Blastocystis sp. subtype 1,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0003,Bacteroides cellulosilyticus,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0004,Blastocystis sp. subtype 2,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False
+msp_0005,Escherichia coli,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False
+msp_0006,Blastocystis sp. subtype 4,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False
+msp_0007,Bacteroides ovatus,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0008,Bacteroides intestinalis,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0009,Clostridium bolteae,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False
+msp_0010,Bacteroides fragilis 1,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0011,Bacteroides thetaiotaomicron,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0012,Parabacteroides distasonis,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False
+msp_0013,Ruminococcus bicirculans,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0014,Eisenbergiella tayi,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0015,Roseburia faecis,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0016,Bacteroides plebeius,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0017,Roseburia intestinalis,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0018,Clostridium sp. KLE 1755 & Clostridiales bacterium VE202-27,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0019,Bacteroides faecis,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True
+msp_0020,Clostridium clostridioforme 1,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False
+msp_0021,Bacteroides xylanisolvens,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0022,Bacteroides finegoldii,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True
+msp_0023,Bacteroides caccae,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True
+msp_0024,Hungatella hathewayi 2,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0025,Akkermansia muciniphila,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False
+msp_0026,Paraprevotella clara,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0027,Parabacteroides merdae,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True
+msp_0028,Parabacteroides goldsteinii,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0029,Eubacterium eligens,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0030,Klebsiella pneumoniae,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0031,Bacteroides stercoris,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0032,Alistipes onderdonkii,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0033,Bacteroides fragilis 2,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0034,Faecalibacterium sp. CAG:74,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False
+msp_0035,Bacteroides dorei,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0036,Bacteroides eggerthii,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0037,Bacteroides salyersiae,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0039,Clostridium sp. CAG:127,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False
+msp_0040,Bacteroides massiliensis,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0041,Prevotella copri 1,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0042,Coprococcus eutactus 2,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0043,Bacteroides coprocola,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False
+msp_0044,Hungatella hathewayi 1,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0045,Ruminococcus bromii 2,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0046,Bacteroides uniformis,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0047,Eubacterium sp. CAG:115,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0048,Eubacterium sp. CAG:38,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0050,Eubacterium hallii,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0052,Blautia sp. CAG:257,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0053,Eubacterium siraeum,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0054,Bacteroides nordii,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0055,Firmicutes bacterium CAG:65 / Clostridium sp. 2789STDY5608883,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0057,Roseburia sp. CAG:45 & sp. 2789STDY5608886,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0058,Ruminococcus gnavus,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False
+msp_0059,Barnesiella intestinihominis,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0060,Firmicutes bacterium CAG:95,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False
+msp_0061,Bacteroides congonensis,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False
+msp_0062,Odoribacter splanchnicus,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0063,Bacteroides clarus,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0064,Alistipes sp. CAG:435,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False
+msp_0065,Ruminococcus sp. CAG:17 & Blautia sp. 2789STDY5608880,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0066,Clostridium sp. AT4,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0067,Prevotella sp. 109 & CAG:255,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False
+msp_0068,Eubacterium rectale,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0069,Bacteroides vulgatus,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0070,Akkermansia sp. CAG:344,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,True,False
+msp_0071,Roseburia hominis,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0072,Roseburia inulinivorans,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0074,Roseburia sp. CAG:100,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0075,Clostridium sp. CAG:91 & sp. 2789STDY5834873,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False
+msp_0076,Blautia wexlerae,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0078,Prevotella sp. CAG:732,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0079,Clostridium sp. CAG:7,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0080,Prevotellamassilia timonensis,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0082c,Providencia rettgeri 2,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0083,Parabacteroides johnsonii,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False
+msp_0084,Prevotella sp. CAG:386,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0086,Clostridium symbiosum,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0087,Lactobacillus rogosae,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0089,Alistipes finegoldii,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True
+msp_0090,Alistipes putredinis,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True
+msp_0091,Prevotella sp. CAG:604,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0092,Sutterella wadsworthensis 1,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0093,Clostridium sp. CAG:62,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False
+msp_0096,Bacteroides sp. CAG:443,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0097,Paraprevotella xylaniphila,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0098,Parabacteroides gordonii,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0100,Morganella morganii,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False
+msp_0101,Bacteroides sp. CAG:875 & sp. 2789STDY5834845,False,False,False,False,False,True,False,False,False,False,False,False,False,False,True,False,False,False,False
+msp_0103,Clostridium innocuum,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0104,Emergencia timonensis,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0105,Ruminococcus sp. CAG:177,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False
+msp_0106,Firmicutes bacterium CAG:240,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False
+msp_0107,Anaerostipes hadrus 1,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0108,Enterobacter xiangfangensis,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False
+msp_0109,Clostridium scindens 2,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0110,Bilophila wadsworthia,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0111,Coprococcus sp. HPP0074 & HPP0048 / Lachnospiraceae bacterium 9_1_43BFAA & 6_1_37FAA,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False
+msp_0112,Blautia hydrogenotrophica,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False
+msp_0113,Blautia producta 2,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False
+msp_0114,Bacteroides coprophilus,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0115c,Lachnoclostridium phytofermentans 2,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0123,Prevotella sp. CAG:520,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False
+msp_0125,Firmicutes bacterium CAG:24 / Clostridium sp. 2789STDY5834869 & 2789STDY5834922,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0126,Ruminococcus torques,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0127,Ruminococcus sp. CAG:353 & sp. 2789STDY5834938,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0128,Butyricimonas virosa,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0129,Clostridium sp. CAG:58,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0130,Candidatus Gastranaerophilales bacterium x14,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0131,Phascolarctobacterium sp. CAG:207,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0132,Coprobacillus cateniformis,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False
+msp_0133,Coprococcus sp. 2789STDY5608819 / Clostridium sp. CAG:264,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False
+msp_0134,Megamonas funiformis == rupellensis,False,True,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False
+msp_0135,Clostridium clostridioforme 2,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0136,Prevotella sp. P4-51 & PA-67 & P5-64 & P5-108 & CAG:474,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,True,False,False,False
+msp_0138,Bifidobacterium pseudocatenulatum,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0139,Coprobacter fastidiosus,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0140,Klebsiella oxytoca,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0141,Blautia massiliensis,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0142,Blautia sp. CAG:52 & sp. 2789STDY5834917,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0143,Parabacteroides sp. CAG:409,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False
+msp_0144,Clostridium sp. CAG:138,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False
+msp_0145,Parasutterella excrementihominis,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0146c,Streptococcus sanguinis,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0148c,Veillonella dispar,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False
+msp_0150c,Clostridium methylpentosum,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0151,Butyricimonas synergistica 2,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0152,Ruminococcus faecis,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False
+msp_0153,Erysipelatoclostridium ramosum,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0154,Fusicatenibacter saccharivorans,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0157,Klebsiella aerogenes,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0158,Eubacterium sp. CAG:252,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False
+msp_0160,Faecalitalea sp. UBA637,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0161,Eubacterium sp. CAG:248,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0163,Firmicutes bacterium CAG:227,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0164,Ruminococcus sp. 2789STDY5608794 & sp. 2789STDY5834890 / Firmicutes bacterium CAG:56,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0166,Bifidobacterium longum,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0167c,Plesiomonas shigelloides,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0168,Firmicutes bacterium CAG:194,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False
+msp_0169,Roseburia sp. CAG:197,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False
+msp_0170,Azospirillum sp. CAG:239,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0171,Blautia hansenii,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0172,Ruthenibacterium lactatiformans,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0173,Christensenellaceae bacterium Phil1 & Clostridium sp. CAG:226,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False
+msp_0174,Klebsiella quasipneumoniae,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False
+msp_0175,Lachnospiraceae bacterium TF01-11 / Clostridium sp. CAG:122,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0176,Prevotella sp. P4-65 & P4-76 & P5-60 & P5-119 & P5-125 & CAG:592,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False
+msp_0178,Ruminococcus sp. A254.MGS-254 & CAG:254,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0179,Coprococcus eutactus 1,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0180,Blautia producta,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0182,Firmicutes bacterium CAG:424,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True
+msp_0183,Acetobacter sp. 46_36 & CAG:267,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0184,Culturomica massiliensis,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0186,Clostridium sp. CAG:299,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0187,Bacteroides sp. Marseille-P3166 & CAG:598,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False
+msp_0188,bacterium LF-3 / Coprobacillus sp. CAG:235,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0189,Blautia sp. CAG:237,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False
+msp_0190,Bacteroides sp. CAG:530,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0193,Clostridium scindens 1,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0194,Clostridium sp. 42_12 & CAG:75,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False
+msp_0195,Desulfovibrio piger,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False
+msp_0196,Alistipes shahii,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0197,Megasphaera sp. BL7 & NM10,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0198,Coprobacter secundus == Gabonia massiliensis,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0199,Bacteroidales bacterium H8 & H9 & Prevotella sp. CAG:279,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False
+msp_0200,Anaerostipes caccae,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False
+msp_0201,Akkermansia sp. KLE1605,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True
+msp_0202,Acinetobacter sp. N54.MGS-139 / Proteobacteria bacterium CAG:139,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0203,Negativibacillus massiliensis,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False
+msp_0204,Clostridia bacterium UC5.1-1D10 / Clostridium sp. CAG:505 / Firmicutes bacterium CAG:466,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0205,Firmicutes bacterium CAG:124,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0206,Butyrivibrio crossotus,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0207,Roseburia sp. CAG:380,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0208,Ruminococcus sp. Marseille-P328 / Blautia sp. 2789STDY5608844 & sp. 2789STDY5608844,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0209,Enterobacter cloacae complex 'Hoffmann cluster IV',False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False
+msp_0211,Mediterranea massiliensis ,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False
+msp_0212,Dialister invisus,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0213,Flavonifractor plautii,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0214,Alistipes sp. CAG:268,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False
+msp_0215,Dialister sp. CAG:357,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0216,Odoribacter laneus,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True
+msp_0217,Bacteroides sp. Marseille-P3108 & CAG:633,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0220,Azospirillum sp. 51_20,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False
+msp_0221,Acidaminococcus intestini,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False
+msp_0222,Clostridium sp. CAG:354_28_25,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False
+msp_0223,Clostridium sp. L2-50,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0224,Prevotella copri 2,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0225,Alistipes obesi,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False
+msp_0227,Eubacterium sp. 36_13 & CAG:86,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False
+msp_0228,Proteus mirabilis,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0229,Prevotella sp. 885,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False
+msp_0230,Alistipes inops == Tidjanibacter massiliensis,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False
+msp_0232,Dorea sp. CAG:317,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0236,Eubacterium ventriosum,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0237,Roseburia sp. CAG:182,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False
+msp_0241,Klebsiella variicola,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False
+msp_0242,Anaerotignum lactatifermentans,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False
+msp_0243,Clostridium sp. CAG:253,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0244,Ruminococcus sp. CAG:60 / Blautia sp. 2789STDY5608836,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0245,Megasphaera massiliensis,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0246,Tyzzerella nexilis,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0247,Clostridium sp. 44_14 & CAG:277,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False
+msp_0250,Ruminococcus lactaris,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0256,Bacteroides sp. CAG:462,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0258,Firmicutes bacterium CAG:102,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0259,Coprococcus comes,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0260,Prevotella sp. KHD1 & AG:487_50_53 & CAG:487,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0261,Bacteroides sp. CAG:770,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False
+msp_0262,Ruminococcus callidus,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0263,Bifidobacterium adolescentis,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False
+msp_0264,Parabacteroides sp. SN4,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False
+msp_0266,Fusobacterium ulcerans,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False
+msp_0271,Eubacterium sp. CAG:180,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False
+msp_0273,Clostridium sp. CAG:510,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False
+msp_0274,Sellimonas intestinalis == Drancourtella massiliensis,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0275,Prevotella stercorea,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False
+msp_0276,Flavonifractor sp. An10,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False
+msp_0277,Eubacterium sp. CAG:251 / Clostridium sp. A254.MGS-251,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0278,Erysipelotrichaceae bacterium 3_1_53,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False
+msp_0279,Cloacibacillus porcorum,False,False,False,False,False,True,False,False,False,False,False,False,False,True,False,False,False,False,False
+msp_0280,Sutterella wadsworthensis 2,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False
+msp_0281,Catenibacterium sp. CAG:290,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False
+msp_0282,Ruminococcus sp. CAG:330,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False
+msp_0285,Clostridium sp. CAG:217,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False
+msp_0286,Ruminococcus sp. 37_24 & sp. 2789STDY5834934,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False
+msp_0287,Alistipes ihumii,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False
+msp_0289,Fusobacterium varium,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0290,Clostridium sp. CAG:352 / Ruminicoccus sp. 2789STDY5834969 & sp. 2789STDY5608859,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0294,Butyrivibrio sp. CAG:318,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0295,Desulfovibrio fairfieldensis,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False
+msp_0299,Eubacterium ramulus,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0301,Faecalibacterium prausnitzii 1 (A2-165),False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False
+msp_0304,Alistipes sp. CAG:514,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False
+msp_0305,Roseburia sp. CAG:303,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False
+msp_0306,Firmicutes bacterium CAG:176,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False
+msp_0307,Dorea longicatena 1,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0308,Clostridium saccharolyticum 2,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False
+msp_0310,Barnesiella sp. An22,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False
+msp_0312,Firmicutes bacterium CAG:110,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0313,Veillonella parvula,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False
+msp_0315,Firmicutes bacterium CAG:145,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False
+msp_0318,Alistipes indistinctus,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0321,Clostridium sp. CAG:411,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False
+msp_0324,Faecalibacterium prausnitzii 7,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False
+msp_0325,Ruminococcus sp. UNK.MGS-30,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False
+msp_0327,Bacteroides sp. CAG:545,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False
+msp_0328,Brachyspira sp. CAG:484,False,False,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False
+msp_0329,Clostridium butyricum,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0330,Firmicutes bacterium CAG:534,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False
+msp_0331,Oscillibacter sp. KLE 1728 & KLE 1745 / Oscillospiraceae VE202-24,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0333,Lactobacillus ruminis,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0334,Erysipelotrichaceae bacterium 5_2_54FAA / Eubacterium sp. 3_1_31,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0336,Bacteroides fluxus,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False
+msp_0337,Eubacterium sp. 38_16 & CAG:146,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0338,Fusobacterium mortiferum,False,False,False,False,False,False,False,False,True,False,False,False,False,True,False,False,False,False,False
+msp_0340,Clostridium leptum,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False
+msp_0341,Klebsiella michiganensis 2,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False
+msp_0342,Flavonifractor sp. 2789STDY5834931,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False
+msp_0343,Clostridium sp. CAG:413,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False
+msp_0344,Anaerotruncus sp. CAG:390,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0346,Clostridium sp. CAG:43,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0347,Clostridium paraputrificum,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0349,Bacteroides sp. An19 & An51A & An269 & An279 & CAG:702,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0350,Fournierella massiliensis,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False
+msp_0352,Oscillibacter sp. CAG:241,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False
+msp_0357,Clostridium sp. CAG:169,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False
+msp_0359,Mitsuokella jalaludinii,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False
+msp_0360,Clostridium asparagiforme == lavalense,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False
+msp_0361,Firmicutes bacterium CAG:170,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False
+msp_0362,Clostridium saudiense,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0364,Intestinimonas butyriciproducens,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0367,Ruminococcus champanellensis,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False
+msp_0368c,Aeromonas veronii,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False
+msp_0370,Anaeromassilibacillus sp. Marseille-P3371 & Clostridia bacterium UC5.1-1E11,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0373,Clostridium sp. 2789STDY5608884,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False
+msp_0374,Gemmiger formicilis,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0375,Rhodospirillum sp. UNK.MGS-17 / Azospirillum sp. 47_25 & CAG:260,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0376,Bacteroides pectinophilus,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0377,Bacteroides barnesiae,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0378,Eubacterium sp. CAG:156,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0379,Merdimonas faecis,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False
+msp_0380,Streptococcus salivarius,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0381,Alistipes senegalensis,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False
+msp_0383,Dialister succinatiphilus,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0385,Ruminococcaceae bacterium D16,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0387,Firmicutes bacterium CAG:882,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False
+msp_0388,Faecalibacterium prausnitzii 3 ( L2-6),False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0389,Faecalibacterium prausnitzii 4 (cf. KLE1255),False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False
+msp_0390,Bacteroides sp. CAG:1076,False,True,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False
+msp_0391,Oscillibacter sp. CAG:155,False,False,False,False,False,False,False,True,False,False,False,False,False,True,False,False,False,False,False
+msp_0392,Firmicutes bacterium CAG:238,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False
+msp_0395,Brachyspira sp. CAG:700,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False
+msp_0396,Adlercreutzia equolifaciens,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0399,Faecalibacterium prausnitzii 5,False,False,False,False,False,False,False,False,False,False,False,True,True,False,False,False,False,False,False
+msp_0403,Enterococcus faecium,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0405,Ruminococcus sp. CAG:403,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0408,Lactobacillus mucosae,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0409,Pyramidobacter piscolens,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0412,Bacteroides sp. CAG:144,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0414,Duodenibacillus massiliensis,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False
+msp_0416,Bacteroides sp. CAG:709,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False
+msp_0419,Bifidobacterium bifidum,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0422,Romboutsia timonensis,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False
+msp_0426,Dialister sp. CAG:486,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0427,Eubacterium sp. CAG:786,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False
+msp_0428,Bacteroidales bacterium H5,True,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False
+msp_0429,Alistipes timonensis,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False
+msp_0431,Eubacterium sp. CAG:274,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0436,Blautia obeum,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0437c,Actinomyces oris,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0446c,Oribacterium sinus,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False
+msp_0447,Firmicutes bacterium CAG:272,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0455,Candidatus Gastranaerophilales bacterium HUM_21 / Heliobacterium sp. N15.MGS-306 / Clostridium sp.  UNK.MGS-6 & K4410.MGS-306 & CAG:306,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0457,Faecalibacterium sp. CAG:82,False,False,False,False,True,False,False,False,False,False,False,True,False,False,False,False,False,False,False
+msp_0458,Catenibacterium mitsuokai,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False
+msp_0463,Clostridium sp. CAG:167,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0467,Firmicutes bacterium CAG:94,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False
+msp_0468,Firmicutes bacterium CAG:41 / Clostridium sp. 2789STDY5834935 & sp. 2789STDY5608853,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0469c,Bifidobacterium scardovii,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True
+msp_0473c,Clostridium sp. 2789STDY5834874 & sp. 2789STDY5608885,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0474,Dakarella massiliensis,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False
+msp_0475,Prevotella sp. CAG:891,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0476,Prevotella sp. CAG:485,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False
+msp_0477,Firmicutes bacterium CAG:83,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0478,Clostridium phoceensis,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0481,Ruminococcus sp. CAG:579,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False
+msp_0482,Mitsuokella multacida,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0483,Veillonella sp. CAG:933,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False
+msp_0486,Lactococcus lactis subsp. lactis,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0488,Acidaminococcus massiliensis,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False
+msp_0493,Eubacterium sp. CAG:603 & sp.  2789STDY5608818,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False
+msp_0497,Enterococcus faecalis,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True
+msp_0498,Ruminococcus sp. CAG:488,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False
+msp_0499,Clostridium sp. CAG:590,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0501,Megasphaera elsdenii,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0503,Coraliomargarita sp. CAG:312,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0506,Dorea formicigenerans,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0509,Firmicutes bacterium CAG:114,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0510,Clostridium glycyrrhizinilyticum,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0512,Firmicutes bacterium CAG:321,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False
+msp_0517,Bacteroidales bacterium H10,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False
+msp_0519,Prevotella sp. CAG:924,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0520c,Bacteroides gallinarum,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True
+msp_0522,Anaerotruncus colihominis,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0527,Clostridium sp. CAG:307,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0529,Eubacterium sp. CAG:581,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False
+msp_0530,Dorea longicatena 2,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False
+msp_0534,Firmicutes bacterium CAG:176_63_11,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False
+msp_0537,Alistipes sp. An31A,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False
+msp_0538,Phascolarctobacterium succinatutens,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False
+msp_0540,Clostridium sp. CAG:448,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False
+msp_0542,Clostridium sp. CAG:230,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0543c,Alistipes sp. CHKCI003,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False
+msp_0544c,Escherichia fergusonii,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False
+msp_0545,Pseudoflavonifractor sp. An184,False,False,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False
+msp_0546,Clostridium sp. CAG:245,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False
+msp_0551,Eubacterium sp. CAG:192,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0554,Anaerostipes hadrus 2,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0555,Subdoligranulum sp. CAG:314,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0562,Enorma massiliensis,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0564,Fusobacterium sp. CAG:439,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False
+msp_0567,Firmicutes bacterium CAG:475,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0568,Prevotella sp. CAG:1124,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False
+msp_0569,Anaerotruncus sp. CAG:528,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False
+msp_0570,Bifidobacterium dentium,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False
+msp_0572,Lachnospira sp. 2789STDY5834967 / Clostridiales bacterium KLE1615 & 41_12_two_minus,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False
+msp_0573,Eggerthella lenta,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0574c,Fusobacterium necrophorum,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False
+msp_0575,Eubacteriaceae bacterium CHKCI004 & Eubacterium sp. An3,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False
+msp_0577,Clostridium sp. CAG:1013,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0578,Clostridium sp. CAG:269,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False
+msp_0581,Firmicutes bacterium CAG:212 / Clostridium sp. 2789STDY5834871,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False
+msp_0582,Clostridium sp. CAG:632,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0584,Eggerthella sp. CAG:298,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False
+msp_0585,Methanobrevibacter smithii 1,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0586,Clostridium sp. CAG:343,False,False,False,False,False,True,False,False,False,False,False,False,False,False,True,False,False,False,False
+msp_0594,Phascolarctobacterium sp. CAG:266,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False
+msp_0595,Cryptobacterium sp. CAG:338,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0598,Prevotella sp. CAG:1092,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False
+msp_0600c,Weissella cibaria,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0601c,Anaerofustis stercorihominis,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False
+msp_0602c,Streptococcus infantis,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False
+msp_0603c,Selenomonas artemidis,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False
+msp_0604,Dorea sp. CAG:105,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0608,Bacteroidales bacterium H4 & Prevotella sp. CAG:873,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False
+msp_0610,Fusobacterium nucleatum subsp. animalis,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False
+msp_0611,Bacteroidales bacterium H2 / Prevotella sp. CAG:251,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False
+msp_0616,Prevotella buccae,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0618,Turicimonas muris,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0621,Intestinibacter bartlettii,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0623,Coprobacillus sp. 8_1_38FAA / Clostridium sp. 2789STDY5608874,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0625,Firmicutes bacterium CAG:646,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False
+msp_0626,Citrobacter freundii,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False
+msp_0627,Bifidobacterium breve,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False
+msp_0630,Eubacterium sp. CAG:161,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0633,Klebsiella michiganensis 1,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False
+msp_0636,Bacteroidales bacterium 55_9,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False
+msp_0637,Alistipes sp. Marseille-P2431,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0639,Faecalibacterium prausnitzii 6,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False
+msp_0642,Proteobacteria bacterium CAG:495,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True
+msp_0645,Clostridium sp. CAG:452,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False
+msp_0646,Bacteroides sp. 43_108,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0647,Clostridia bacterium UC5.1-2E3,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False
+msp_0648,Holdemanella biformis,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False
+msp_0654,Firmicutes bacterium CAG:103,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False
+msp_0655,Ruminococcus sp. 2789STDY5608817 / Eubacterium sp. 2789STDY5834872,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0656,Succinatimonas sp. CAG:777,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False
+msp_0659,Caecibacter massiliensis,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0662,bacterium OL-1,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0668,Coprococcus sp. CAG:782,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False
+msp_0671,Turicibacter sanguinis 1,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0674,Eubacterium sp. 2789STDY5834909,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0675,Sutterella sp. CAG:521,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False
+msp_0677c,Slackia exigua,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False
+msp_0680c,Bacteroidales bacterium H1 & K10,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False
+msp_0681,Prevotella sp. CAG:617,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0686,Ruminococcus sp. CAG:382,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False
+msp_0687,Prevotella sp. UBA630,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False
+msp_0691,Lactobacillus amylovorus,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False
+msp_0696,Acidaminococcus fermentans,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0697,Clostridium sp. CAG:221,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False
+msp_0698,Faecalitalea cylindroides,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0700,Megasphaera sp. ASD88 & An286,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False
+msp_0708,Ruminococcus sp. CAG:563,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False
+msp_0709,Firmicutes bacterium CAG:341,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0710,Bacteroides sp. CAG:927,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False
+msp_0711c,Rikenella microfusus,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False
+msp_0712,Lactobacillus salivarius,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False
+msp_0713,Clostridium citroniae,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0714c,Selenomonas bovis,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0715c,Aggregatibacter segnis,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False
+msp_0720,Clostridium sp. CAG:1024,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False
+msp_0722,Blautia sp. Marseille-P3087 / Ruminococcus sp. 2789STDY5608882,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0726,Prevotella sp. CAG:755,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0733,Roseburia sp. CAG:471,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0734,Firmicutes bacterium CAG:555,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False
+msp_0736c,Bacteroides sp. An322,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0739c,Prevotella timonensis,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False
+msp_0742,Streptococcus parasanguinis,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False
+msp_0744,Acidaminococcus sp. CAG:542,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False
+msp_0748,Firmicutes bacterium CAG:460,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0752,Ruminococcus sp. CAG:624,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False
+msp_0754c,Citrobacter werkmanii,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0757,Clostridium sp. 28_12 & CAG:356,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0760,Clostridium sp. 29_15 & CAG:265,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False
+msp_0762,Clostridium sp. CAG:678,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False
+msp_0763,Oscillibacter sp. ER4 / Firmicutes bacterium CAG:129_59_24,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False
+msp_0769,Butyricicoccus sp. N15.MGS-46 & N54.MGS-46 & K4410.MGS-46,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0771,Clostridiales bacterium UBA644,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False
+msp_0772,Clostridiales bacterium 1_7_47FAA  & VE202-28,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0774,Prevotella sp. CAG:1058,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False
+msp_0777,Firmicutes bacterium CAG:129,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False
+msp_0779,Clostridium sp. CAG:417,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0782,Candidatus Gastranaerophilales bacterium MH_37 & HUM_20 / Melainabacteria sp. 35_41,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0785,Collinsella tanakaei,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0789,Prevotella sp. CAG:1185,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0792,Clostridium perfringens,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False
+msp_0800,Eggerthella sp. 51_9 & CAG:209,True,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False
+msp_0801,Sutterella parvirubra,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False
+msp_0802,Bacteroidales bacterium H3,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False
+msp_0808,Clostridium sp. CAG:288,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0811,[Staphylococcus] sp. CAG:324,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False
+msp_0814,Lachnoclostridium sp. An138,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False
+msp_0818,Clostridium sp. CAG:302,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0819,Candidatus Gastranaerophilales bacterium HUM_2 / Candidatus Melainabacteria bacterium MEL.A1,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False
+msp_0821,Firmicutes bacterium CAG:313,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0823,Ruminococcus sp. CAG:724,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False
+msp_0824,Clostridium sp. CAG:967,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0825,Firmicutes bacterium CAG:791,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False
+msp_0828,Massiliomicrobiota sp. An80 & An105 & An134 & An142,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False
+msp_0831,Faecalicoccus pleomorphus,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0832,Streptococcus pasteurianus,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False
+msp_0833,Streptococcus thermophilus,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0835,Clostridiales bacterium 41_21_two_genomes,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0838,Candidatus Gastranaerophilales bacterium HUM_6 & HUM_7 & HUM_12 & HUM_14,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0839,Clostridium sp. CAG:964,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False
+msp_0843,Weissella confusa,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0844c,Campylobacter concisus 2,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False
+msp_0845,Clostridium sp. CAG:440,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False
+msp_0852,Eubacterium dolichum,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False
+msp_0853c,Granulicatella adiacens,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0854,Clostridium sp. CAG:349,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False
+msp_0856,Clostridium sp. 28_17 & CAG:470,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0858,Clostridium sp. CAG:433,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False
+msp_0865,Enterobacter kobei,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0866c,Lactobacillus agilis,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0868,Lachnospiraceae bacterium 2_1_46FAA,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0872,Clostridium sp. CAG:567,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False
+msp_0873,Olsenella sp. Marseille-P2300,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False
+msp_0877,Massiliomicrobiota timonensis,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False
+msp_0878,Bifidobacterium gallinarum == saeculare ,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0881,Haemophilus parainfluenzae,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False
+msp_0882c,Candidatus Gastranaerophilus phascolarctosicola,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0883,Clostridium spiroforme,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0884,Veillonella atypica,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False
+msp_0886,Firmicutes bacterium CAG:449,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0890c,Leuconostoc mesenteroides,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0893,Faecalibacterium prausnitzii 2,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False
+msp_0895,Acetobacter sp. CAG:977,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False
+msp_0896,Candidatus Methanomassiliicoccus intestinalis,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0897,Candidatus Gastranaerophilales bacterium HUM_1 / Clostridium sp. CAG:813,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False
+msp_0898,butyrate-producing bacterium SS3/4 - Clostridium sp. CAG:81,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0903,Oscillibacter sp. 57_20,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False
+msp_0905c,Treponema succinifaciens,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False
+msp_0906,Clostridium sp. 2789STDY5834924,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0907,Clostridium sp. CAG:465,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False
+msp_0909,Clostridium sp. CAG:768,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0910,Bifidobacterium catenulatum,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0916,Bifidobacterium animalis,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0923,Veillonella seminalis,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0924,Methanobrevibacter smithii 2,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False
+msp_0925,Lactobacillus gasseri 2,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0934,Bacteroides salanitronis,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False
+msp_0935,Peptostreptococcus anaerobius,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False
+msp_0936c,Helicobacter winghamensis,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False
+msp_0938,Firmicutes bacterium CAG:536,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0946,Collinsella intestinalis,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0947,Clostridium sp. 26_22,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False
+msp_0950c,Sanguibacteroides justesenii == Gabonibacter massiliensis,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False
+msp_0952,Agathobaculum desmolans,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False
+msp_0955,Firmicutes bacterium CAG:345,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0963c,Campylobacter hominis,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0964,Clostridium sp. CAG:571,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False
+msp_0968c,Veillonella magna,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0969,Olsenella sp. Marseille-P2912,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0970,Collinsella bouchesdurhonensis,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0971,Bacteroides sartorii,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0974c,Gemella sanguinis,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0977,Flavonifractor sp. 2789STDY5834895 & sp. 2789STDY5834937 /  Clostridium sp. 2789STDY5608878,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True
+msp_0983,Streptococcus lutetiensis,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False
+msp_0985,Mycoplasma sp. CAG:472,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False
+msp_0986,Coprococcus catus,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_0999,Collinsella stercoris,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_1003,Eubacterium sp. CAG:841,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False
+msp_1005,Clostridium sp. CAG:508,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False
+msp_1006,Lactobacillus fermentum,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_1007,Coprobacillus sp. CAG:698,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False
+msp_1009,Senegalimassilia anaerobia,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False
+msp_1011,Clostridium sp. CAG:557,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_1012,Intestinimonas massiliensis,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False
+msp_1018,Candidatus Methanomethylophilus alvus / Methanoculleus sp. CAG:1088,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False
+msp_1019,Oxalobacter formigenes 1,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_1028c,Prevotella intermedia,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False
+msp_1033,Clostridium sp. CAG:273,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False
+msp_1034,Anaeroglobus geminatus,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False
+msp_1035,Mobilibacterium timonense,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_1038,Blautia sp. 2789STDY5608796 & sp. 2789STDY5608848,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_1040c,Colibacter massiliensis,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False
+msp_1043,Mycoplasma sp. CAG:611,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False
+msp_1045,Prevotella sp. CAG:1320,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_1046,Clostridium sp. 7_2_43FAA,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_1049,Clostridium sp. CAG:451,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False
+msp_1052,Bacteroidales bacterium 52_46,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_1054,Clostridium sp. CAG:780,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_1057c,Peptoniphilus lacrimalis,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False
+msp_1058c,Proteus mirabilis 2,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_1059c,Lactobacillus gallinarum,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_1063c,Peptostreptococcus sp. MV1,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False
+msp_1068,Clostridium sp. CAG:524,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_1070,Butyricicoccus pullicaecorum,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False
+msp_1071,Coprobacillus sp. CAG:826,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False
+msp_1081,Fusobacterium gonidiaformans,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False
+msp_1084,Eubacterium sp. ER2,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_1089,Lactobacillus casei == paracasei,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_1093,Clostridium sp. 27_14,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False
+msp_1099c,Bifidobacterium thermacidophilum,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_1101,Firmicutes bacterium CAG:631,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_1102,Firmicutes bacterium CAG:552,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_1107,Bacteroides sp. CAG:1060,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False
+msp_1110,Coprobacillus sp. CAG:605,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_1111,Clostridium sp. CAG:568,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False
+msp_1112,Mycoplasma sp. CAG:956,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False
+msp_1113c,Firmicutes bacterium CAG:822,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False
+msp_1114,Allisonella histaminiformans,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_1122,Firmicutes bacterium CAG:582,False,False,False,False,False,False,False,False,False,False,True,False,True,False,False,False,False,False,False
+msp_1125,Eggerthella sp. CAG:368,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False
+msp_1126,Prevotella corporis,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_1127,Streptococcus anginosus,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_1134,Clostridium sp. CAG:798,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False
+msp_1138,Clostridium sp. CAG:628,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_1139,Clostridium sp. CAG:389,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False
+msp_1141,Mycoplasma sp. CAG:877,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False
+msp_1144c,Bacteroidales bacterium M7,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True
+msp_1155,Bifidobacterium angulatum,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False
+msp_1156,Solobacterium moorei,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False
+msp_1158,Porphyromonas somerae,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False
+msp_1160,Clostridium sp. CAG:533,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False
+msp_1164,Faecalibacterium sp. CAG:1138,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False
+msp_1168,Peptoniphilus harei,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_1169c,Sphaerochaeta sp. Phil3,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False
+msp_1170,Clostridium sp. CAG:609,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_1182,Verrucomicrobia bacterium CAG:312_58_20,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False
+msp_1186,Corallococcus sp. CAG:1435,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_1187,Bacillus sp. CAG:988,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False
+msp_1190c,Streptococcus sp. UBA632,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False
+msp_1191c,Atopobium parvulum,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False
+msp_1193,Dialister pneumosintes,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False
+msp_1196,Lactobacillus crispatus,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False
+msp_1198,Clostridium sp. CAG:575,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_1204,Clostridium sp. CAG:914,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_1205,Comamonas kerstersii,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False
+msp_1211,Clostridium sp. CAG:762,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False
+msp_1214,Firmicutes bacterium CAG:884,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False
+msp_1217,Eggerthella sp. CAG:1427,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_1219,Veillonella sp. oral taxon 158,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_1221,Mycoplasma sp. CAG:776,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_1222,Lactobacillus vaginalis,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False
+msp_1223c,Lactobacillus parabuchneri,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_1227c,Libanicoccus massiliensis,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False
+msp_1229,Bacteroides sp. Marseille-P3208T,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False
+msp_1234,Parvimonas micra,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_1237,Lactobacillus reuteri,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False
+msp_1241,Alistipes sp. Zagget8,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False
+msp_1243,Clostridium sp. CAG:710,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False
+msp_1244,Collinsella aerofaciens,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False
+msp_1245,Parvimonas sp. KA00067,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False
+msp_1250,Drancourtella sp. An12 & An57,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_1257,Clostridium sp. CAG:921,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_1259c,Clostridiales bacterium S5-A14a,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False
+msp_1260,Clostridium sp. CAG:793,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False
+msp_1263c,Prevotella sp. UBA641,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_1264c,Dielma fastidiosa,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False
+msp_1265,Lactobacillus johnsonii,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False
+msp_1266,Acidiphilium sp. CAG:727,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_1268,Lactobacillus acidophilus,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False
+msp_1275,Clostridium sp. CAG:594,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False
+msp_1276,Succinatimonas hippei,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False
+msp_1286,Acidaminococcus sp. CAG:917,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_1287,Lactobacillus delbrueckii,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_1293,Clostridiales bacterium UBA643,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False
+msp_1300c,Christensenella minuta,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_1308,Turicibacter sanguinis 2,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False
+msp_1311,Methanosphaera stadtmanae,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False
+msp_1313,Acholeplasma sp. CAG:878,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_1322,Clostridium sp. CAG:1193,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_1325,Megasphaera micronuciformis,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False
+msp_1327,Peptostreptococcus stomatis,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_1329,Veillonella tobetsuensis,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False
+msp_1331,Hafnia paralvei,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False
+msp_1333,Clostridium sp. CAG:1000,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False
+msp_1335,Anaeromassilibacillus sp. An172,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_1336,Anaerococcus obesiensis == vaginalis,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False
+msp_1337c,Clostridium sp. Marseille-P2538,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False
+msp_1339,Gordonibacter urolithinfaciens,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_1341,Streptococcus infantarius,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_1344c,Bacteroides acidifaciens,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False
+msp_1351,Clostridium celatum,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_1352,Enterobacter cloacae,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False
+msp_1356,Anaeromassilibacillus sp. An250,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_1362,Holdemania massiliensis,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_1368,Clostridium sp. CAG:1219,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False
+msp_1381,Butyricicoccus sp. 2789STDY5834927 / Clostridia bacterium UC5.1-1D1,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_1397c,Catabacter hongkongensis,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False
+msp_1403,Blautia sp. 2789STDY5834862,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False
+msp_1404,Prevotella bivia,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False
+msp_1410,Lactococcus lactis subsp. cremoris,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_1412,Prevotella disiens,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False
+msp_1418c,Streptococcus mitis,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False
+msp_1432,Citrobacter koseri,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True
+msp_1441c,Bacteroides faecichinchillae,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False
+msp_1444,Ruminococcaceae bacterium D5,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False
+msp_1453,Streptococcus vestibularis,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_1456c,Porphyromonas endodontalis,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False
+msp_1457,Fenollaria massiliensis,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False
+msp_1458,Christensenellaceae bacterium Phil10,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_1475,Bacteroidales bacterium M1,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_1476,Haemophilus pittmaniae,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False
+msp_1477,Streptococcus mutans,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_1489c,Enterococcus gallinarum,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_1490,Roseburia sp. CAG:309,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False
+msp_1491,Clostridium sp. 2789STDY5834920,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False
+msp_1511c,Enterobacter asburiae,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_1513,Gordonibacter sp. An232A / Coriobacteriaceae bacterium CHKCI002,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False
+msp_1523,Desulfovibrio sp. Zagget14,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False
+msp_1525,Clostridium hylemonae,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_1528,Olsenella sp. An188,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False
+msp_1543,Streptococcus oralis,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False
+msp_1547c,Lactobacillus farciminis,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_1554c,Kluyvera georgiana,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False
+msp_1556,Holdemania filiformis,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_1559c,Porphyromonas sp. HMSC065F10,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False
+msp_1567,Clostridium disporicum,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_1570,Porphyromonas asaccharolytica,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True
+msp_1571c,Tissierellia bacterium S7-1-4,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False
+msp_1578c,Bacteroides oleiciplenus,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_1584,Pseudoflavonifractor capillosus,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_1590c,Holdemania sp. Marseille-P2844,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_1599,Streptococcus sp. I-P16,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False
+msp_1603c,Atopobium parvulum 2,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False
+msp_1606c,Olsenella sp. KH3B4,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_1608c,Clostridium sp. 2789STDY5608831,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_1618,Alistipes sp. An54 & An116,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False
+msp_1622,Clostridium sp. 2789STDY5608793,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_1628,Lachnoclostridium sp. An118,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False
+msp_1631,Oxalobacter formigenes 2,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_1634,Slackia piriformis,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_1639,Desulfovibrio sp. An276,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_1640,Alistipes sp. CAG:831,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_1643c,Ruminococcus sp. JC304,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_1648,Peptoniphilus senegalensis,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False
+msp_1655c,Desulfovibrio desulfuricans,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False
+msp_1666,Mollicutes bacterium Phil14,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False
+msp_1671c,Neglecta timonensis,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False
+msp_1682c,Clostridioides difficile,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True
+msp_1684,Faecalicatena contorta,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_1696c,Desulfovibrio sp. 92-2,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False
+msp_1697,Enterococcus avium,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_1698,Lachnoclostridium sp. An14,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False
+msp_1701c,Olsenella sp. Marseille-P3256,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False
+msp_1702,Streptococcus australis,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False
+msp_1704c,Enterococcus asini,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False
+msp_1714,Cloacibacillus evryensis,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False
+msp_1724,Phocea massiliensis,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_1737,Bacteroides stercorirosoris,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_1747,Faecalicatena fissicatena,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False
+msp_1748,Streptococcus gordonii,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_1754,Raoultella ornithinolytica,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False
+msp_1766,Enterobacter ludwigii,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_1772c,Clostridium neonatale,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False
+msp_1773,Lactobacillus oris,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_1776c,Anaerofilum sp. An201,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_1779c,Blastocystis sp. subtype 9,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False
+msp_1780c,Clostridium jeddahense,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_1782,Prevotella melaninogenica,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True
+msp_1783,Fusobacterium periodonticum,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,True
+msp_1784,Prevotella jejuni,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False
+msp_1785,Haemophilus sp. CCUG 66565,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False
+msp_1787,Prevotella salivae,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True
+msp_1788,Lachnoanaerobaculum saburreum,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True
+msp_1789,Alloprevotella tannerae,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False
+msp_1790,Fusobacterium nucleatum subsp. polymorphum,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_1793,Prevotella denticola,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False
+msp_1794,Haemophilus paraphrohaemolyticus,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False
+msp_1801,Haemophilus parahaemolyticus,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False
+msp_1802,Haemophilus sputorum,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False
+msp_1805,Lactobacillus gasseri 1,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_1808,Prevotella veroralis,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False
+msp_1810,Streptococcus salivarius 2,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False
+msp_1815,Enterobacter mori,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_1816,Citrobacter freundii,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False
+msp_1820,Clostridium sp. CL-2,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False
+msp_1883,Aeromonas caviae,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False
+msp_1942,[Clostridium] hiranonis,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False
