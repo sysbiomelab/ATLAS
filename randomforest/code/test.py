@@ -9,6 +9,7 @@ from scipy.spatial import distance
 from scipy.stats import spearmanr
 from sklearn import metrics
 from sklearn.decomposition import PCA
+import pickle
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import (accuracy_score, confusion_matrix, classification_report)
 from sklearn.metrics import plot_confusion_matrix
@@ -28,19 +29,20 @@ import skbio
 
 taxo = pd.read_csv('../../../../data/FMT/downstream_data/taxo.csv', index_col=0)
 msp = pd.read_csv('../../../oldatlas/data/vect_atlas.csv', index_col=0)
+msp = msp.reindex(taxo.index, fill_value=0)
 meta = pd.read_csv('../../../oldatlas/data/unique_metadata.csv')
 meta.host_phenotype = meta.host_phenotype.fillna('Healthy')
 
 var = 'host_phenotype'
 newmeta = meta.set_index('secondary_sample_accession')
-msptaxo = msp.join(taxo['species']).groupby('species').sum().T
-scaler = StandardScaler()
-msptaxo.loc[:] = scaler.fit_transform(msptaxo)
-healthdf = msptaxo.join(newmeta['health_status'], how='inner').dropna()
+#msptaxo = msp.join(taxo['species']).groupby('species').sum().T
+msptaxo = msp.T
+msptaxo.loc[:] = StandardScaler().fit_transform(msptaxo)
+healthdf = msptaxo.join(newmeta['health_status']).dropna()
 healthydf = healthdf.loc[healthdf.health_status == 'H'].drop('health_status', axis=1).dropna()
 healthydf[var] = 'Healthy'
 df = healthdf.loc[healthdf.health_status != 'H'].drop('health_status', axis=1)
-df = df.join(newmeta[var], how='inner').dropna()
+df = df.join(newmeta[var]).dropna()
 df.host_phenotype.loc[df.host_phenotype == 'ME/CFS'] = 'ME_CFS'
 
 excludedDiseases = [
@@ -78,25 +80,36 @@ for i in df[var].unique():
     diseaseddf = testdf.loc[testdf[var] == i]
     nondiseasedf=healthydf.sample(len(diseaseddf), random_state=1)
     testdf = pd.concat([nondiseasedf, diseaseddf])
-    classifier = RandomForestClassifier(n_estimators=500, n_jobs=-1,random_state=1)
+    #model = RandomForestClassifier(n_estimators=500, n_jobs=-1,random_state=1)
+    model = LGBMClassifier( boosting_type="gbdt", class_weight=None, colsample_bytree=1.0, importance_type="split", learning_rate=0.1, max_depth=-1, min_child_samples=20, min_child_weight=0.001, min_split_gain=0.0, n_estimators=100, n_jobs=-1, num_leaves=31, objective=None, random_state=2, reg_alpha=0.0, reg_lambda=0.0, silent="warn", subsample=1.0, subsample_for_bin=200000, subsample_freq=0,)
+    model = RandomForestClassifier(bootstrap=True, ccp_alpha=0.0,
+                       class_weight='balanced_subsample', criterion='gini',
+                       max_depth=7, max_features='sqrt', max_leaf_nodes=None,
+                       max_samples=None, min_impurity_decrease=0.0005,
+                       min_samples_leaf=3,
+                       min_samples_split=10, min_weight_fraction_leaf=0.0,
+                       n_estimators=300, n_jobs=-1, oob_score=False,
+                       random_state=2, verbose=0, warm_start=False)
     X = testdf.drop(var, axis=1)
     y = pd.get_dummies(testdf.xs(var, axis=1))[i]
+    #testdf.host_phenotype = pd.get_dummies(testdf.xs(var, axis=1))[i]
     X_train, X_test, y_train, y_test = train_test_split(X, y, stratify=y, random_state = 1)
-    classifier.fit(X_train, y_train)
-    pickle.dump(classifier, open(i, 'wb'))
-    #plot_roc_curve(classifier, X_test, y_test, pos_label=1)
+    #model.fit(X_train, y_train)
+    model.fit(X_train, y_train)
+    #pickle.dump(model, open(i, 'wb'))
+    plot_roc_curve(model, X_test, y_test, pos_label=1)
     #plt.show()
-    #plot_confusion_matrix(classifier, X_test, y_test, display_labels=['H', 'D'], colorbar=False, cmap='Reds')
+    #plot_confusion_matrix(model, X_test, y_test, display_labels=['H', 'D'], colorbar=False, cmap='Reds')
     #plt.show()
-    #plot_precision_recall_curve(classifier, X_test, y_test, pos_label=1)
+    #plot_precision_recall_curve(model, X_test, y_test, pos_label=1)
     #plt.show()
-    y_pred = classifier.predict(X_test)
-    y_pred_proba = classifier.predict_proba(X_test)[:,1]
+    y_pred = model.predict(X_test)
+    y_pred_proba = model.predict_proba(X_test)[:,1]
     #fpr, tpr, _ = metrics.roc_curve(y_test,  y_pred_proba, pos_label=i)
     fpr, tpr, _ = metrics.roc_curve(y_test,  y_pred_proba, pos_label=1)
     scores[i] = roc_auc_score(y_test, y_pred_proba)
-    feature_imp[i] = pd.Series(classifier.feature_importances_,index=X.columns)
-    explainer = shap.TreeExplainer(classifier)
+    feature_imp[i] = pd.Series(model.feature_importances_,index=X.columns)
+    explainer = shap.TreeExplainer(model)
     #shaps[i] = pd.Series(explainer(X).values.sum(axis=0)[:,0], index=X.columns)
     shaps_values = explainer(X)
     meanabsshap = pd.Series( np.abs(shaps_values[:, :, 0].values).mean(axis=0), index=X.columns)
@@ -114,6 +127,7 @@ shaps.columns = scores.index.str.cat(sscores, sep=" ")
 #sns.clustermap(plotdf, yticklabels=True, cmap='Reds')
 #plotdf = shaps[(np.abs(stats.zscore(shaps)) > 6).any(axis=1)]
 plotdf = shaps[(np.abs(shaps) > 0.0125).any(axis=1)]
+plotdf = shaps[(np.abs(shaps) > 0.25).any(axis=1)]
 plotdf = plotdf[~plotdf.index.str.contains('unclassified')]
 #plotdf = shaps[(np.abs(stats.zscore(shaps, axis=1)) > 4.5).any(axis=1)]
 #plotdf = shaps[(np.abs(shaps) > 0.5).any(axis=1)]

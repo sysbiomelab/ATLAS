@@ -39,7 +39,7 @@ msptaxo = msp.join(taxo[taxoType]).groupby(taxoType).sum().T
 msptaxo.loc[:] = StandardScaler().fit_transform(msptaxo)
 
 healthymeta = meta.loc[(meta.health_status == 'H')&(meta.country == 'DNK')]
-diseasemeta = meta.loc[meta.host_phenotype == disease].study_accession.unique() 
+diseasemeta = meta.loc[meta.host_phenotype == disease]
 diseasestudies = meta[meta.study_accession.isin(diseasemeta)]
 test = diseasestudies.loc[diseasestudies.study_accession == str(diseasemeta[0])]
 validate = diseasestudies.loc[diseasestudies.study_accession == 'PRJEB10878']
