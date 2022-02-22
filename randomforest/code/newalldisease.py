@@ -5,6 +5,7 @@ Random forest analysis of metadata
 Theo Portlock
 '''
 from scipy.spatial import distance
+from scipy import stats
 from sklearn import metrics
 from sklearn.decomposition import PCA
 from sklearn.ensemble import RandomForestClassifier
@@ -82,7 +83,7 @@ for i in df[var].unique():
     #plot_roc_curve(classifier, X_test, y_test, pos_label=i)
     #plt.show()
     print(i)
-    plot_confusion_matrix(classifier, X_test, y_test, display_labels=['H', 'D'], colorbar=False, cmap='Reds')
+    #plot_confusion_matrix(classifier, X_test, y_test, display_labels=['H', 'D'], colorbar=False, cmap='Reds')
     #plt.show()
     #plot_precision_recall_curve(classifier, X_test, y_test, pos_label=i)
     #plt.show()
@@ -93,9 +94,21 @@ for i in df[var].unique():
     #scores[i] = roc_auc_score(y_test, y_pred_proba)
     score = roc_auc_score(y_test, y_pred_proba)
     curves[i] = [fpr, tpr]
-    plt.title(f"{i} AUC={str(score)[:6]}")
-    plt.savefig(f"{i}.svg")
+    #plt.title(f"{i} AUC={str(score)[:6]}")
+    #plt.savefig(f"{i}.svg")
 
+'''
+# beta div of prediction
+from scipy.spatial import distance
+imp = feature_imp.T.copy()
+BC_dist = pd.DataFrame(distance.squareform(distance.pdist(imp, metric="braycurtis")), columns=imp.index, index=imp.index) 
+
+sns.clustermap(BC_dist, cmap='Reds', xticklabels=True, yticklabels=True)
+
+plt.tight_layout()
+plt.savefig('../results/beta_cluster.svg')
+plt.show()
+'''
 #left=0.1
 #right=0.5
 #bottom=0.1
@@ -143,14 +156,48 @@ testdf = df.copy()
 classifier = RandomForestClassifier()
 X = testdf.drop(var, axis=1)
 y = testdf.xs(var, axis=1)
-X_train, X_test, y_train, y_test = train_test_split(X, y)
+X_train, X_test, y_train, y_test = train_test_split(X, y,stratified='y')
 classifier.fit(X_train, y_train)
+'''
 plot_confusion_matrix(classifier, X_test, y_test)
 #plot_roc_curve(classifier, X_test, y_test)
 degrees = 90
 plt.xticks(rotation=degrees)
 plt.show()
+'''
 explainer = shap.Explainer(classifier)
-shap_values = explainer(X)
+shap_values = explainer(X, check_additivity=False)
 #shap.plots.waterfall(shap_values.base_values, shap_values[0], X[0])
-shap.summary_plot(shap_values, X.values, plot_type="bar", class_names= class_names, feature_names = X.columns)
+#shap.summary_plot(shap_values, X.values, plot_type="bar", class_names= class_names, feature_names = X.columns)
+#shaps = pd.DataFrame((shap_values.values.sum(axis=0)[:,i] for i in range(y.nunique()), index=X.columns)
+
+shaps = pd.DataFrame(shap_values.values.sum(axis=0), index=X.columns, columns=y.unique())
+shaps = pd.read_csv('shaps.csv', index_col=0).T
+#plotdf = shaps[(np.abs(stats.zscore(shaps)) > 5).any(axis=1)]
+plotdf = shaps
+sns.clustermap(plotdf, center=0, yticklabels=True, cmap='coolwarm')
+
+'''
+#predictive cluster
+df = shaps.copy()
+#df = shaps.copy().T
+scaledDf = StandardScaler().fit_transform(df)
+scaledDf = df.copy()
+pca = PCA()
+results = pca.fit_transform(scaledDf)
+#df['PC1'], df['PC2'] = results[:,0], results[:,1]
+df['PC1'], df['PC2'] = results[0,:], results[1,:]
+#n_clusters = range(2,17)
+n_clusters = range(2,df.index.nunique())
+models = [KMeans(n_clusters=i).fit(df[['PC1', 'PC2']]) for i in n_clusters]
+sscores = pd.Series([silhouette_score(df[['PC1', 'PC2']], i.labels_) for i in models], index=n_clusters)
+print(sscores)
+sscores.plot.bar()
+#df['Cluster'] = models[sscores.reset_index(drop=True).idxmax()].labels_
+df['Cluster'] = models[1].labels_
+#sns.scatterplot(data = df, x='PC1', y='PC2', hue='Cluster', palette='colorblind')
+sns.scatterplot(data = df.melt(id_vars=['PC1', 'PC2']), x='PC1', y='PC2', hue='variable', palette='colorblind')
+fig = px.scatter(df, x='PC1', y='PC2', text=df.index)
+fig.update_traces(textposition='top center')
+plotly.offline.plot(fig, image_filename='tmp123.svg', image='svg')
+'''
