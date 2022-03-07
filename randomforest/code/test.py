@@ -33,7 +33,8 @@ msp = msp.reindex(taxo.index, fill_value=0)
 meta = pd.read_csv('../../../oldatlas/data/unique_metadata.csv')
 meta.host_phenotype = meta.host_phenotype.fillna('Healthy')
 
-var = 'host_phenotype'
+#var = 'host_phenotype'
+var = 'health_status'
 newmeta = meta.set_index('secondary_sample_accession')
 #msptaxo = msp.join(taxo['species']).groupby('species').sum().T
 msptaxo = msp.T
@@ -91,7 +92,8 @@ for i in df[var].unique():
                        n_estimators=300, n_jobs=-1, oob_score=False,
                        random_state=2, verbose=0, warm_start=False)
     X = testdf.drop(var, axis=1)
-    y = pd.get_dummies(testdf.xs(var, axis=1))[i]
+    #y = pd.get_dummies(testdf.xs(var, axis=1))[i]
+    y = pd.get_dummies(testdf.xs(var, axis=1))['P']
     #testdf.host_phenotype = pd.get_dummies(testdf.xs(var, axis=1))[i]
     X_train, X_test, y_train, y_test = train_test_split(X, y, stratify=y, random_state = 1)
     #model.fit(X_train, y_train)
@@ -168,11 +170,7 @@ ax = sns.clustermap(plotdf, yticklabels=True, cmap='coolwarm', center=0,xticklab
 plt.savefig('../results/shap2.svg')
 plt.show()
 
-
 #{'bootstrap': True, 'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': None, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 500, 'n_jobs': -1, 'oob_score': False, 'random_state': 1, 'verbose': 0, 'warm_start': False}
-
-
-
 
 
 '''
