@@ -1,0 +1,42 @@
+CRC:AUT:PRJEB7774,5,Cancer,Colorectal cancer (AT),#aa0000
+CRC:CHN:PRJEB10878,6,Cancer,Colorectal cancer (CN),#aa0000
+CRC:FRA:PRJEB6070,7,Cancer,Colorectal cancer (FR),#aa0000
+CRC:GER:PRJEB27928,8,Cancer,Colorectal cancer (DE)1,#aa0000
+CRC:GER:PRJEB6070,9,Cancer,Colorectal cancer (DE)2,#aa0000
+CRC:IND:PRJNA531273,10,Cancer,Colorectal cancer(IN),#aa0000
+CRC:ITA:PRJNA447983,11,Cancer,Colorectal cancer (IT),#aa0000
+CRC:JPN:PRJDB4176,12,Cancer,Colorectal cancer (JP),#aa0000
+CRC:USA:PRJEB12449,13,Cancer,Colorectal cancer (US),#aa0000
+NSCLC:FRA:PRJEB22863,22,Cancer,NSCLC (FR),#aa0000
+RCC:FRA:PRJEB22863,25,Cancer,Renal cancer (FR),#aa0000
+melanoma:USA:PRJNA397906,41,Cancer,Melanoma (US),#aa0000
+adenoma:ITA:PRJNA447983,38,Adenoma,Adenoma (IT),#aa8800
+adenoma:JPN:PRJDB4176,39,Adenoma,Adenoma (JP),#aa8800
+adenoma:AUT:PRJEB7774,36,Adenoma,Adenoma (AT),#aa8800
+adenoma:FRA:PRJEB6070,37,Adenoma,Adenoma (FR),#aa8800
+GDM:CHN:PRJEB18755,14,Hyperglycaemia,GDM (CN),#0a5cd6
+IGT:SWE:PRJEB1786,15,Hyperglycaemia,IGT (SW),#0a5cd6
+T1D:FIN:SRP006764,27,Hyperglycaemia,T1D (FN),#0a5cd6
+T1D:LUX:PRJNA289586,28,Hyperglycaemia,T1D (LU),#0a5cd6
+T2D:CHN:PRJNA422434,29,Hyperglycaemia,T2D (CN),#0a5cd6
+T2D:ESP:PRJNA361402,30,Hyperglycaemia,T2D (ES),#0a5cd6
+T2D:LUX:PRJNA289586,31,Hyperglycaemia,T2D (LU),#0a5cd6
+T2D:SWE:PRJEB1786,32,Hyperglycaemia,T2D (SW),#0a5cd6
+LC:CHN:PRJEB6337,16,Liver,Liver cirrosis (CN),#00aa88
+LC:GBR:PRJEB38481,17,Liver,Liver cirrisis (GB),#00aa88
+NAFLD:ESP:PRJEB14215,19,Liver,NAFLD (ES),#00aa88
+NAFLD:ITA:PRJEB14215,20,Liver,NAFLD (IT),#00aa88
+NAFLD:USA:PRJNA373901,21,Liver,NAFLD (US),#00aa88
+CD:CHN:PRJEB15371,3,IBD,Crohn's disease (CN),#763fca
+CD:ESP:PRJEB2054,4,IBD,Crohn's disease (ES),#763fca
+UC:ESP:PRJEB2054,33,IBD,Ulcerative colitis (ES),#763fca
+ACVD:CHN:PRJEB21528,1,Obesity-CVD,ACVD (CN),#ca3f76
+atherosclerosis:SWE:PRJNA177201,40,Obesity-CVD,Atherosclerosis (SW),#ca3f76
+ob:DNK:PRJEB4336,42,Obesity-CVD,Obesity (DK),#ca3f76
+BD:CHN:PRJNA431482,2,Inflammatory,Behcet's disease (CN),#c87037
+VKH:CHN:PRJNA356225,34,Inflammatory,VKH disease (CN),#c87037
+RA:CHN:PRJEB6997,24,Inflammatory,Rheumatoid arthritis (CN),#c87037
+SPA:CHN:PRJNA375935,26,Inflammatory,Ankylosyng spondylitis (CN),#c87037
+acute diarrhea:USA:PRJNA321753,35,Others,Acute diarrhea (US),#6f7c91
+PD:GER:PRJEB17784,23,Others,Parkinson's disease (DE),#6f7c91
+ME/CFS:USA:PRJNA379741,18,Others,ME/CFS (US),#6f7c91
