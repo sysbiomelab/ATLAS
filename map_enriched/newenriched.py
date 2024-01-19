@@ -5,8 +5,8 @@ import matplotlib.pyplot as plt
 from sklearn.discriminant_analysis import LinearDiscriminantAnalysis as PCA
 from sklearn.preprocessing import StandardScaler
 
-country_codes = pd.read_csv('../data/countrycodes.tsv', sep='\t',  index_col=1)
-taxo = pd.read_csv('../../../data/FMT/downstream_data/taxo.csv', index_col=0)
+country_codes = pd.read_csv('../data/country_codes.tsv', sep='\t',  index_col=1)
+taxo = pd.read_csv('../../../data/gutTaxo.csv', index_col=0)
 msp = pd.read_csv('../data/vect_atlas.csv', index_col=0)
 
 msptaxo = msp.join(taxo['species']).groupby('species').sum().T
@@ -14,8 +14,8 @@ msptaxo = msp.join(taxo['species']).groupby('species').sum().T
 meta = pd.read_csv('../data/unique_metadata.csv').set_index('country')
 meta = meta.join(country_codes).set_index('secondary_sample_accession')
 
-#regionmetamsptaxo = msptaxo.join(meta[['westernised','Country']])
-regionmetamsptaxo = msp.T.join(meta[['westernised','Country']])
+regionmetamsptaxo = msptaxo.join(meta[['westernised','Country']])
+#regionmetamsptaxo = msp.T.join(meta[['westernised','Country']])
 metamsptaxo = regionmetamsptaxo.groupby('Country').mean()
 
 countrymap = meta[['Country', 'westernised']].groupby('Country').first()
@@ -56,6 +56,7 @@ scaled['1mindiff'] = 1 - scaled.difference
 
 #sns.diverging_palette(220, 20, as_cmap=True)
 sns.clustermap(data=plotdf, cmap='vlag',center = 0 , yticklabels=True)
+functions.clustermap(plotdf)
 
 plt.savefig('../results/Figure_1d.pdf')
 plt.show()

@@ -24,9 +24,9 @@ if (trajectoryMode) {
   library(Biobase)
   source("check.mgs.functions.r")
   mergeMatUpdated <- vect_atlas
-  load('../data/vect_atlas.RData')
-  load('../../../data/FMT/downstream_data/hs_10.4_1992_MSP_freeze2_20180905.RData')
-  basicMetaMapUpdated = read.csv('../data/unique_metadata.csv')
+  load('../../data/vect_atlas.RData')
+  load('../../../../FMT/downstream_data/hs_10.4_1992_MSP_freeze2_20180905.RData')
+  basicMetaMapUpdated = read.csv('../../data/unique_metadata.csv')
 
 #old data
   load('../data/all.basic.clean.metadata.behcet.20190805.RData')

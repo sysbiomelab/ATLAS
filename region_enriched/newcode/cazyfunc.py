@@ -1,20 +1,19 @@
-%autoindent
 import pandas as pd
 import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-cazy_name = pd.read_csv('../data/CAZyDB.07292021.fam-activities.txt', sep='\t', index_col=0)
-genebag = pd.read_csv('../../../data/FMT/gutdataverse_files/IGC2.1990MSPs.tsv', sep='\t', index_col=0)
-cazyme = pd.read_csv('../../../data/FMT/gutdataverse_files/IGC2_vs_cazy.table', sep='\t', index_col=0)
+cazy_name = pd.read_csv('../../data/CAZyDB.07292021.fam-activities.txt', sep='\t', index_col=0)
+genebag = pd.read_csv('../../../../FMT/gutdataverse_files/IGC2.1990MSPs.tsv', sep='\t', index_col=0)
+cazyme = pd.read_csv('../../../../FMT/gutdataverse_files/IGC2_vs_cazy.table', sep='\t', index_col=0)
 cazyme.columns = ['cazyme']
 country_codes = pd.read_csv('../data/countrycodes.tsv', sep='\t',  index_col=1)
-msp = pd.read_csv('../data/vect_atlas.csv', index_col=0).T
+msp = pd.read_csv('../../data/vect_atlas.csv', index_col=0).T
 
-meta = pd.read_csv('../data/unique_metadata.csv').set_index('country')
+meta = pd.read_csv('../../metaAtlasFinish/theo/output/sampleID.csv').set_index('Geography')
 meta = meta.join(country_codes).set_index('secondary_sample_accession')
 
-regionmetamsp= msp.join(meta[['westernised','Country']])
+regionmetamsp= msp.join(meta[['westernised','Geography']])
 metamsp= regionmetamsp.groupby('Country').mean()
 
 countrymap = meta[['Country', 'westernised']].groupby('Country').first()

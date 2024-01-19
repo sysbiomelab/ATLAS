@@ -23,9 +23,9 @@ if (trajectoryMode) {
 #for annotateddataframe
   library(Biobase)
   source("check.mgs.functions.r")
-  mergeMatUpdated <- vect_atlas
   load('../data/vect_atlas.RData')
-  load('../../../data/FMT/downstream_data/hs_10.4_1992_MSP_freeze2_20180905.RData')
+  mergeMatUpdated <- vect_atlas
+  load('../../../FMT/downstream_data/hs_10.4_1992_MSP_freeze2_20180905.RData')
   basicMetaMapUpdated = read.csv('../data/unique_metadata.csv')
 
 #old data
@@ -59,6 +59,7 @@ if (trajectoryMode) {
         normAllMat = vect_atlas*10^9
         #normAllMat = normAllMat[, colnames(normAllMat) %in% newNormalAllIds_wo_FI]
 	sharedIDs = intersect(basicMetaMapUpdated$secondary_sample_accession, colnames(normAllMat))
+	#sharedIDs = intersect(basicMetaMapUpdated$sample.ID, colnames(normAllMat))
         normAllMat = normAllMat[, sharedIDs]
 	#basicMetaMapUpdated = basicMetaMapUpdated[sharedIDs, ]
 	basicMetaMapUpdated =  basicMetaMapUpdated[ which(basicMetaMapUpdated$secondary_sample_accession==sharedIDs), ]
@@ -93,7 +94,7 @@ if (trajectoryMode) {
         pd <- new("AnnotatedDataFrame", data = trajectorySampleTab)
         fd <- new("AnnotatedDataFrame", data = trajectoryTaxaTab)
         
-        cds <- newCellDataSet(as.matrix(normAllMat), 
+        cds <- newCellDataSet(as.matrix(c(normAllMat), 
                               phenoData = pd, 
                               featureData = fd,
                               lowerDetectionLimit = 0.1)

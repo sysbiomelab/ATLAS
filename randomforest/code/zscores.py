@@ -8,7 +8,7 @@ from sklearn.preprocessing import StandardScaler
 import skbio
 
 country_codes = pd.read_csv('../../../oldatlas/data/countrycodes.tsv', sep='\t',  index_col=1)
-taxo = pd.read_csv('../../../../data/FMT/downstream_data/taxo.csv', index_col=0)
+taxo = pd.read_csv('../data/gutTaxo.csv', index_col=0)
 msp = pd.read_csv('../../../oldatlas/data/vect_atlas.csv', index_col=0)
 
 msptaxo = msp.join(taxo['species']).groupby('species').sum().T

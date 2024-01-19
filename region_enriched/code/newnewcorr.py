@@ -1,34 +1,23 @@
+import pandas as pd
 from scipy.stats import spearmanr
 from statsmodels.stats.multitest import fdrcorrection
 
+#REALLY INTERESTING FILE
 
-mspdf = pd.read_csv('wellnessMgsMat.csv', index_col=0).T
+mspdf = pd.read_csv('../data/wellnessMgsMat.csv', index_col=0).T
 mspdf.index = mspdf.index.str.replace('X',"")
 mspdf.index = mspdf.index.str.replace('v',"")
 
 taxaType='genus'
 
 gmsp_samples = mspdf.T
-gmsp_taxonomy = pd.read_csv("../data/FMT/downstream_data/taxo.csv", index_col=0)
+gmsp_taxonomy = pd.read_csv("../data/gutTaxo.csv", index_col=0)
 mspdf = gmsp_samples.join(gmsp_taxonomy[taxaType], how='inner').groupby(taxaType).sum().T
 mspdf.drop(list(mspdf.filter(regex = 'unclassified')), axis = 1, inplace = True)
-
-metadf = pd.read_csv('data/scapis_wellness_metabo_v1234_Sheet1.csv')
+metadf = pd.read_csv('../data/scapis_wellness_metabo_v1234_Sheet1.csv')
 metadf = metadf.iloc[:,4:].set_index('Name').drop_duplicates().T
 
-proteindf1 = pd.read_csv('data/olink.visit1.new.normalization.11.panels.txt', sep='\t', index_col=0)
-proteindf2 = pd.read_csv('data/olink.visit2.new.normalization.11.panels.txt', sep='\t', index_col=0)
-proteindf3 = pd.read_csv('data/olink.visit3.new.normalization.11.panels.txt', sep='\t', index_col=0)
-proteindf4 = pd.read_csv('data/olink.visit4.new.normalization.11.panels.txt', sep='\t', index_col=0)
-
-p1 = proteindf1.T.add_suffix('_1').T
-p2 = proteindf2.T.add_suffix('_2').T
-p3 = proteindf3.T.add_suffix('_3').T
-p4 = proteindf4.T.add_suffix('_4').T
-
-mergedp = pd.concat([p1,p2,p3,p4])
-
-df = mergedp.join(metadf.join(mspdf))
+proteome = pd.read_csv('../data/proteomics.csv', index_col=0)
 
 '''
 correlationArray, uncorrectedPValueArray = spearmanr(df)
@@ -60,11 +49,11 @@ edges.sort_values('value')
 
 '''
 
-pdf = df.xs(mergedp.columns,axis=1)
+pdf = df.xs(proteome.columns,axis=1)
 mspd = df.xs(mspdf.columns,axis=1)
 meta = df.xs(metadf.columns,axis=1)
 #correlationArray, uncorrectedPValueArray = spearmanr(pdf, mspdf, axis=0)
-#correlationArray, uncorrectedPValueArray = spearmanr(meta, mergedp, axis=0)
+#correlationArray, uncorrectedPValueArray = spearmanr(meta, proteome, axis=0)
 c1, p1 = spearmanr(pdf, mspd, axis=0)
 c2, p2 = spearmanr(pdf, meta, axis=0)
 c3, p3 = spearmanr(mspd, meta, axis=0)

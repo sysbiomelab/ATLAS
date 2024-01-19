@@ -1,4 +1,3 @@
-%autoindent
 import pandas as pd
 import numpy as np
 import seaborn as sns
@@ -11,7 +10,7 @@ card["gene_name"] = card.ORF_ID.str.split(expand=True)[0]
 card["gene_name"] = card["gene_name"].str[0:-2]
 card = card.set_index('gene_name')
 
-genebag = pd.read_csv('../../../data/FMT/gutdataverse_files/IGC2.1990MSPs.tsv', sep='\t', index_col=0)
+genebag = pd.read_csv('../../../FMT/gutdataverse_files/IGC2.1990MSPs.tsv', sep='\t', index_col=0)
 country_codes = pd.read_csv('../data/countrycodes.tsv', sep='\t',  index_col=1)
 msp = pd.read_csv('../data/vect_atlas.csv', index_col=0).T
 

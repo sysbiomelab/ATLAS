@@ -1,31 +1,29 @@
-%autoindent
 import pandas as pd
 import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
+from scipy.stats import zscore
 
-card = pd.read_csv('../data/hs_10_4_igc2.CARD.tsv', sep='\t')
-card_name = pd.read_csv('../data/aro.tsv', sep='\t', index_col=0)
+card = pd.read_csv('../../../../data/gutCard.tsv', sep='\t')
+card_name = pd.read_csv('../../data/aro.tsv', sep='\t', index_col=0)
 card_name.index = card_name.index.str.replace('ARO:','')
 card["gene_name"] = card.ORF_ID.str.split(expand=True)[0]
 card["gene_name"] = card["gene_name"].str[0:-2]
 card = card.set_index('gene_name')
 
-genebag = pd.read_csv('../../../data/FMT/gutdataverse_files/IGC2.1990MSPs.tsv', sep='\t', index_col=0)
+genebag = pd.read_csv('../../../../data/gutGene.tsv', sep='\t', index_col=0)
 country_codes = pd.read_csv('../data/countrycodes.tsv', sep='\t',  index_col=1)
-msp = pd.read_csv('../data/vect_atlas.csv', index_col=0).T
+msp = pd.read_csv('../../data/vect_atlas.csv', index_col=0).T
 
-meta = pd.read_csv('../data/unique_metadata.csv').set_index('country')
+meta = pd.read_csv('../../data/unique_metadata.csv').set_index('country')
 meta = meta.join(country_codes).set_index('secondary_sample_accession')
 
 regionmetamsp= msp.join(meta[['westernised','Country']])
-metamsp= regionmetamsp.groupby('Country').mean()
+metamsp = regionmetamsp.groupby('Country').mean()
 
 countrymap = meta[['Country', 'westernised']].groupby('Country').first()
 
-from scipy.stats import zscore
 zscores = metamsp.apply(zscore)
-
 zscores.replace([np.inf, -np.inf], np.nan, inplace=True)
 zscores.dropna(axis=1, inplace=True)
 df = zscores.join(countrymap)
@@ -58,8 +56,8 @@ cutoff = merged[merged.sum(axis=1) > 2]
 percentile = cutoff.T.div(cutoff.sum(axis=1)).T
 extremes = percentile.loc[abs(percentile['nwCount'].sub(percentile['wCount'])).sort_values().tail(18).index]
 sort = extremes.sort_values('nwCount')
-
 sort.index = sort.index.astype(str)
+sort.to_csv('../results/CARDWesternEnrich.csv')
 
 plt.bar(x = sort.index, height=sort.iloc[:,0])
 plt.bar(x = sort.index, height=sort.iloc[:,1], bottom = sort.iloc[:,0])
@@ -74,3 +72,25 @@ plt.subplots_adjust(left=left, right=right, top=top, bottom=bottom)
 #plt.tight_layout()
 plt.savefig('../results/Figure_1f2.pdf')
 plt.show()
+
+''' DISEASE
+metamsp= msp.join(meta['host_phenotype']).fillna('Healthy').groupby('host_phenotype').mean().apply(zscore).T
+metamsp.replace([np.inf, -np.inf], np.nan, inplace=True)
+metamsp.dropna(inplace=True)
+
+enrichlist = pd.DataFrame()
+for i in metamsp.columns:
+    enrichlist[i] = metamsp[i].sort_values().tail(100).index
+
+for i in enrichlist.columns:
+    genebag[i] = 0
+    for j in enrichlist[i].values:
+        genebag.loc[j, i] = genebag.loc[j, i] + 1
+
+ngene =  genebag.set_index('gene_name').drop(['gene_id', 'gene_category'], axis=1)
+cardjoin = ngene.join(card['Best_Hit_ARO'], how='inner').groupby('Best_Hit_ARO').sum()
+cardjoin.to_csv('../results/DiseaseCardJoin.csv')
+import functions
+functions.relabund(cardjoin.T)
+functions.richness(cardjoin.T)
+'''
