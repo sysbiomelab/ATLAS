@@ -3,7 +3,7 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-meta = pd.read_csv('../data/unique_metadata.csv').set_index('secondary_sample_accession')
+meta = pd.read_csv('../data/metadata_atlas_metadata.tsv', sep='\t', index_col=0).set_index('secondary_sample_accession')
 data = pd.read_csv('../data/plotdata.csv').set_index('Unnamed: 0')
 data.columns = ['Component 1', 'Component 2'] 
 

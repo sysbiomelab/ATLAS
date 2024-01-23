@@ -1,0 +1,30 @@
+
+
+funcMatRData = "~/sunjae.mAtlas.func.annotation/funcMat.20190808.RData"
+#funcMatRData = "~/sunjae.mAtlas.func.annotation/funcMat.20191227.RData"
+#funcJaccMatRData = "~/sunjae.mAtlas.func.annotation/funcJaccMat.20190812.RData"
+funcJaccMatRData = "~/sunjae.mAtlas.func.annotation/funcJaccMat.20191227.RData"
+#funcJaccNetRData = "~/sunjae.mAtlas.func.annotation/funcJaccNet.20190828.RData"
+funcJaccNetRData = "~/sunjae.mAtlas.func.annotation/funcJaccNet.20191227.RData"
+#funcModulesRData = "~/sunjae.mAtlas.func.annotation/funcModules.20190828.RData"
+funcModulesRData = "~/sunjae.mAtlas.func.annotation/funcModules.20191227.RData"
+#funcModuleAnnotsRData = "~/sunjae.mAtlas.func.annotation/funcModuleAnnots.20190828.RData"
+funcModuleAnnotsRData = "~/sunjae.mAtlas.func.annotation/funcModuleAnnots.20191227.RData"
+
+funcGemMatRData = "~/sunjae.mAtlas.func.annotation/funcGemMat.20190820.RData"
+#funcGemJaccMatRData = "~/sunjae.mAtlas.func.annotation/funcGemJaccMat.20190820.RData"
+funcGemJaccMatRData = "~/sunjae.mAtlas.func.annotation/funcGemJaccMat.20191227.RData"
+#funcGemJaccNetRData = "~/sunjae.mAtlas.func.annotation/funcGemJaccNet.20190828.RData"
+funcGemJaccNetRData = "~/sunjae.mAtlas.func.annotation/funcGemJaccNet.20191227.RData"
+#funcGemModulesRData = "~/sunjae.mAtlas.func.annotation/funcGemModules.20190828.RData"
+funcGemModulesRData = "~/sunjae.mAtlas.func.annotation/funcGemModules.20191227.RData"
+#funcGemModuleAnnotsRData = "~/sunjae.mAtlas.func.annotation/funcGemModuleAnnots.20190828.RData"
+funcGemModuleAnnotsRData = "~/sunjae.mAtlas.func.annotation/funcGemModuleAnnots.20191227.RData"
+
+
+jgiMatRData = "~/sunjae.mAtlas.func.annotation/jgiMat.RData"
+pfamMatRData = "~/sunjae.mAtlas.func.annotation/igc2PfamMat.RData"
+koMatRData = "~/sunjae.mAtlas.func.annotation/gutKoBestMat.1990.RData"
+cazyMatRData = "~/sunjae.mAtlas.func.annotation/igc2.new.cazy.mat.RData"
+antismashRData = "~/sunjae.mAtlas.func.annotation/msp1992.igc2.antismashMat.RData"
+mustardRData = "~/sunjae.mAtlas.func.annotation/mustard.mat.RData"
