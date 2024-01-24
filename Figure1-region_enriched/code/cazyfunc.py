@@ -1,35 +1,23 @@
-%autoindent
 import pandas as pd
 import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
 
+# Load cazy data
 cazy_name = pd.read_csv('../data/CAZyDB.07292021.fam-activities.txt', sep='\t', index_col=0)
 genebag = pd.read_csv('../../../data/FMT/gutdataverse_files/IGC2.1990MSPs.tsv', sep='\t', index_col=0)
 cazyme = pd.read_csv('../../../data/FMT/gutdataverse_files/IGC2_vs_cazy.table', sep='\t', index_col=0)
 cazyme.columns = ['cazyme']
 country_codes = pd.read_csv('../data/countrycodes.tsv', sep='\t',  index_col=1)
-msp = pd.read_csv('../data/vect_atlas.csv', index_col=0).T
 
-meta = pd.read_csv('../data/unique_metadata.csv').set_index('country')
-meta = meta.join(country_codes).set_index('secondary_sample_accession')
+# Load gct and msp
+genebag = pd.read_csv('../../../data/FMT/gutdataverse_files/IGC2.1990MSPs.tsv', sep='\t', index_col=0)
 
-regionmetamsp= msp.join(meta[['westernised','Country']])
-metamsp= regionmetamsp.groupby('Country').mean()
+# Load westernisation
+sortmat = pd.read_csv('../results/westernspecies.csv', index_col=0)
 
-countrymap = meta[['Country', 'westernised']].groupby('Country').first()
-
-from scipy.stats import zscore
-zscores = metamsp.apply(zscore)
-
-zscores.replace([np.inf, -np.inf], np.nan, inplace=True)
-zscores.dropna(axis=1, inplace=True)
-df = zscores.join(countrymap)
-dft = df.T
-var = 'westernised'
-sortmat = df.groupby(var).mean().T
-nwvals = dft.loc[sortmat.sort_values('NW').tail(100).index].infer_objects()
-wvals = dft.loc[sortmat.sort_values('W').tail(100).index].infer_objects()
+nwvals = sortmat.sort_values('NW').tail(100).index
+wvals = sortmat.sort_values('W').tail(100).index
 
 genebag['nwCount'] = 0
 for i in nwvals.index:
@@ -53,6 +41,7 @@ percentile = cutoff.T.div(cutoff.sum(axis=1)).T
 extremes = percentile.loc[abs(percentile['nwCount'].sub(percentile['wCount'])).sort_values().tail(18).index]
 sort = extremes.sort_values('nwCount')
 
+# Plot
 plt.bar(x = sort.index, height=sort.iloc[:,0])
 plt.bar(x = sort.index, height=sort.iloc[:,1], bottom = sort.iloc[:,0])
 plt.xticks(rotation=90)
@@ -64,7 +53,5 @@ bottom=0.17
 top=0.31
 adj = 0.1
 plt.subplots_adjust(left=left, right=right, top=top+adj, bottom=bottom+adj)
-
-#plt.tight_layout()
 plt.savefig('../results/Figure_1f1.pdf')
 plt.show()
